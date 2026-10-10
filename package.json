@@ -1,0 +1,14 @@
+{
+  "name": "tonescript",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A readable, editable, playable timbre score",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "check": "node scripts/check.mjs && node --test",
+    "test": "node --test",
+    "fixtures": "node scripts/render-fixtures.mjs"
+  }
+}

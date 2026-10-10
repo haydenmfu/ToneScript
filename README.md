@@ -4,7 +4,21 @@ A readable, editable, playable score for how music sounds.
 
 ToneScript explores a round trip: **recording → sound layers → timbre score → reconstructed performance**. Editing the score should audibly change the reconstruction. Musicians should be able to read the score independently of the software.
 
-This repository currently contains the project plan and development process; no audio analysis, editor, or renderer has been implemented or validated yet.
+The first prototype includes a versioned score, deterministic harmonic/noise renderer, browser editor, playback, undo, and JSON/SVG/WAV exports. It currently opens synthetic test studies; automatic analysis and the two assignment transcriptions are not yet implemented. Listening evaluation is pending.
+
+## Run locally
+
+Requires Node.js 22 or newer. No runtime packages or model downloads are needed for the core prototype.
+
+```sh
+npm ci
+npm run check
+npm start
+```
+
+Open `http://127.0.0.1:4173`. Select a gesture, change its properties, and play the score or neutral baseline. Reference audio is optional and remains separate from reconstruction. `npm run fixtures` writes synthetic score documents, static SVG notation, and WAV comparisons to ignored `outputs/fixtures/`.
+
+See [notation and rendering semantics](docs/NOTATION.md) for the meaning and limits of the current symbols.
 
 ## Project contract
 
