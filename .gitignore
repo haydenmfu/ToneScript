@@ -1,0 +1,27 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated environments and caches
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+coverage/
+
+# Keep source audio, model weights, and generated media out of ordinary Git.
+# Tiny generated/licensed fixtures should live in tests/fixtures with provenance.
+data/raw/
+data/private/
+models/
+outputs/
+artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
