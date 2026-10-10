@@ -39,6 +39,7 @@ export function validateScore(score) {
       for (const key of ['brightness', 'noise']) {
         require(Array.isArray(t[key]) && t[key].length === 2 && t[key].every(v => finite(v) && v >= 0 && v <= 1), `${q}: ${key} needs start/end values in 0–1`);
       }
+      require(event.pitch !== null || (Array.isArray(t.noise) && t.noise.every(v => v === 1)), `${q}: unpitched noise events require noise [1,1]`);
       for (const key of ['attack', 'release']) require(finite(t[key]) && t[key] >= 0.002 && t[key] <= event.duration, `${q}: ${key} must fit event and be at least .002 seconds`);
       require(finite(t.attack) && finite(t.release) && t.attack + t.release <= event.duration + 1e-9, `${q}: attack + release exceeds duration`);
       require(finite(t.decay) && t.decay >= 0 && t.decay <= 12, `${q}: decay must be 0–12`);
@@ -58,7 +59,7 @@ export function parseScore(text) { return assertScore(JSON.parse(text)); }
 export function neutralScore(score) {
   const copy = structuredClone(assertScore(score));
   for (const lane of copy.lanes) for (const e of lane.events) {
-    e.timbre = { brightness: [0.25, 0.25], noise: [0, 0], attack: Math.min(.02, e.duration / 4), release: Math.min(.08, e.duration / 4), decay: 0 };
+    e.timbre = { brightness: [0.25, 0.25], noise: [0, 0], attack: Math.max(.002, Math.min(.02, e.duration / 4)), release: Math.max(.002, Math.min(.08, e.duration / 4)), decay: 0 };
     // Unpitched events retain a noise carrier, rather than inventing a pitched note.
     if (e.pitch === null) e.timbre.noise = [1, 1];
   }

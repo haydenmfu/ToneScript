@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" data-grid-bottom="260" role="img" aria-label="Mihai Sorohan · solo trumpet 06 timbre score">
+<rect width="100%" height="100%" fill="#faf8f1"/>
+<style>text{font-family:Arial,sans-serif;fill:#222a36}.tick{font-size:13px}.name{font-size:16px;font-weight:bold}.small{font-size:12px}</style>
+<text x="30" y="40" font-size="27" font-weight="bold">Mihai Sorohan · solo trumpet 06</text>
+<text x="30" y="67" font-size="14">ToneScript / timbre over time · fixed row position does not indicate pitch</text>
+<defs>
+<linearGradient id="g0"><stop stop-color="hsl(120,65%,50%)"/><stop offset="1" stop-color="hsl(124,65%,49%)"/></linearGradient>
+<linearGradient id="g1"><stop stop-color="hsl(124,65%,49%)"/><stop offset="1" stop-color="hsl(135,65%,47%)"/></linearGradient>
+<linearGradient id="g2"><stop stop-color="hsl(113,65%,51%)"/><stop offset="1" stop-color="hsl(121,65%,50%)"/></linearGradient>
+<linearGradient id="g3"><stop stop-color="hsl(125,65%,49%)"/><stop offset="1" stop-color="hsl(138,65%,46%)"/></linearGradient>
+</defs>
+<path d="M190 110V260" stroke="#dcdedb"/><text class="tick" x="190" y="100" text-anchor="middle">0s</text>
+<path d="M372.8109346813718 110V260" stroke="#dcdedb"/><text class="tick" x="372.8109346813718" y="100" text-anchor="middle">1s</text>
+<path d="M555.6218693627436 110V260" stroke="#dcdedb"/><text class="tick" x="555.6218693627436" y="100" text-anchor="middle">2s</text>
+<path d="M738.4328040441154 110V260" stroke="#dcdedb"/><text class="tick" x="738.4328040441154" y="100" text-anchor="middle">3s</text>
+<path d="M921.2437387254871 110V260" stroke="#dcdedb"/><text class="tick" x="921.2437387254871" y="100" text-anchor="middle">4s</text>
+<path d="M1104.054673406859 110V260" stroke="#dcdedb"/><text class="tick" x="1104.054673406859" y="100" text-anchor="middle">5s</text>
+<text class="name" x="25" y="150">Mixture · suggested g</text><text class="small" x="25" y="171">4 gestures</text>
+<path d="M190 201H1165" stroke="#dcdedb"/>
+<g data-event="suggested-1"  aria-label="Mixture · suggested gestures at 0s; brightness 0.57 to 0.548; noise 0.01 to 0.019">
+<title>Unreviewed audio-analysis suggestion · 0s–1.324s · pitch 71.9 · gain 0.5335 · decay 0</title>
+<path d="M190 195L228.20382912971309 138H417.33216128086906L431.9570360553788 195Z" fill="url(#g0)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture0"><path d="M190 195L228.20382912971309 138H417.33216128086906L431.9570360553788 195Z"/></clipPath><g clip-path="url(#texture0)">
+</g>
+<text class="small" x="192" y="215">B 57→55</text>
+<text class="small" x="192" y="231">N 1→2</text>
+</g>
+<g data-event="suggested-2"  aria-label="Mixture · suggested gestures at 1.323537s; brightness 0.548 to 0.486; noise 0.019 to 0.007">
+<title>Unreviewed audio-analysis suggestion · 1.323537s–1.881s · pitch 67.8 · gain 0.3433 · decay 0</title>
+<path d="M431.9570360553788 195L436.20190595868024 138H519.2088561491692L533.8337309236789 195Z" fill="url(#g1)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture1"><path d="M431.9570360553788 195L436.20190595868024 138H519.2088561491692L533.8337309236789 195Z"/></clipPath><g clip-path="url(#texture1)">
+</g>
+<text class="small" x="433.9570360553788" y="215">B 55→49</text>
+<text class="small" x="433.9570360553788" y="231">N 2→1</text>
+</g>
+<g data-event="suggested-3"  aria-label="Mixture · suggested gestures at 1.927256s; brightness 0.608 to 0.561; noise 0.04 to 0.03">
+<title>Unreviewed audio-analysis suggestion · 1.927256s–2.276s · pitch 69.9 · gain 0.4835 · decay 0</title>
+<path d="M542.3234707302819 195L559.3029503434877 138H591.3714616943593L605.996336468869 195Z" fill="url(#g2)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture2"><path d="M542.3234707302819 195L559.3029503434877 138H591.3714616943593L605.996336468869 195Z"/></clipPath><g clip-path="url(#texture2)">
+</g>
+<text class="small" x="544.3234707302819" y="215">B 61→56</text>
+<text class="small" x="544.3234707302819" y="231">N 4→3</text>
+</g>
+<g data-event="suggested-4"  aria-label="Mixture · suggested gestures at 2.275556s; brightness 0.541 to 0.471; noise 0.02 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 2.275556s–3.042s · pitch 65 · gain 0.412 · decay 0</title>
+<path d="M605.9965192798036 195L622.9759988930094 138H731.4521685033071L746.0770432778169 195Z" fill="url(#g3)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture3"><path d="M605.9965192798036 195L622.9759988930094 138H731.4521685033071L746.0770432778169 195Z"/></clipPath><g clip-path="url(#texture3)">
+</g>
+<text class="small" x="607.9965192798036" y="215">B 54→47</text>
+<text class="small" x="607.9965192798036" y="231">N 2→1</text>
+</g>
+<text x="30" y="285" font-size="16" font-weight="bold">Read the sound</text>
+<text x="30" y="311" font-size="14">B / blue → gold: dark → bright. N / more dots: tonal → noise-like. Values 0–100; transitions are linear.</text>
+<text x="30" y="336" font-size="14">Left slope: entrance time. Right slope: release time. Empty space: silence. Height is fixed, not loudness.</text>
+<text x="30" y="361" font-size="13">The stored score also carries pitch, gain, and decay. This visual projection alone does not encode every synthesis parameter.</text>
+<text x="30" y="386" font-size="12">Score 1.0 · renderer harmonic-noise-v1 · automatic suggestions; not listening-reviewed</text></svg>

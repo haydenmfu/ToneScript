@@ -1,0 +1,4 @@
+# Optional offline analysis/separation environment; core browser app needs none of these.
+librosa==0.11.0
+soundfile==0.13.1
+demucs==4.0.1

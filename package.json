@@ -4,11 +4,19 @@
   "private": true,
   "type": "module",
   "description": "A readable, editable, playable timbre score",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "scripts": {
     "start": "node scripts/server.mjs",
-    "check": "node scripts/check.mjs && node --test",
+    "check": "npm run lint && node scripts/check.mjs && node --test",
     "test": "node --test",
-    "fixtures": "node scripts/render-fixtures.mjs"
+    "fixtures": "node scripts/render-fixtures.mjs",
+    "lint": "eslint .",
+    "studies": "node scripts/build-studies.mjs",
+    "fetch-examples": "node scripts/fetch-examples.mjs"
+  },
+  "devDependencies": {
+    "eslint": "10.12.0"
   }
 }

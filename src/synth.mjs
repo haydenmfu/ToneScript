@@ -23,6 +23,7 @@ export function renderScore(input, { sampleRate = 22050, neutral = false, laneId
       const offset = Math.round(e.start * sampleRate);
       const n = Math.min(Math.round(e.duration * sampleRate), samples.length - offset);
       const freq = e.pitch === null ? 0 : 440 * 2 ** ((e.pitch - 69) / 12);
+      if(freq>sampleRate*.45) throw new Error(`Pitch ${e.pitch} exceeds the supported tonal band at ${sampleRate} Hz; choose a higher sample rate`);
       const harmonics = freq ? Math.min(16, Math.floor(sampleRate * .45 / freq)) : 0;
       const noise = random(eventSeed(score.seed, e.id));
       let low = 0;

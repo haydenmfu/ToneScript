@@ -2,7 +2,7 @@
 
 This is an initial vocabulary to test, not a validated universal model of timbre.
 
-Time runs left to right in seconds. Rows identify sound layers without representing pitch. Blank intervals represent silence. Simultaneous events may overlap; dense overlap currently needs a clearer visual treatment before submission.
+Time runs left to right in seconds. Rows identify sound layers without representing pitch. Blank intervals represent silence. Overlapping events within one layer occupy additional vertical slots; this stacking does not indicate pitch, loudness, or another instrument.
 
 | Property | Readable notation | Electronic interpretation |
 | --- | --- | --- |
@@ -15,8 +15,10 @@ Brightness and noise each have a start and end value with linear interpolation. 
 
 Pitch (fractional MIDI note or null), gain, and duration are separate scaffolding. Decay is an exponential envelope parameter 0–12. These values appear in the inspector and SVG tooltips but are not fully encoded by the ribbon. Therefore playback reconstructs the stored score, not the static picture alone. This is an explicit limitation to revisit with musicians.
 
-Unpitched events use noise without inventing a note. Such events always use a full noise carrier even if a contradictory noise value is supplied; the editor should eventually make this constraint clearer. The synthesized sound is one interpretation, not a clone of an instrument.
+Unpitched events use noise without inventing a note. The score validator requires their noise values to be [1,1], matching the full noise carrier used by the renderer. This is a renderer limitation: an unpitched sound is not necessarily perceptually pure noise, and this model does not separately express inharmonic ringing. The synthesized sound is one interpretation, not a clone of an instrument.
 
 The renderer uses at most 16 harmonics below 45% of sample rate, event-local seeded noise, and fixed 0.25 master gain. A hard safety limit at ±0.98 counts affected samples; no automatic per-render peak normalization hides loudness differences. Evaluation comparisons require separate documented level matching.
 
 Artifacts or examples of brightness and noise estimates must not be described as direct measurements of perceptual timbre. Attack/decay also interact with articulation; the essay should explain that choice rather than claim strict perceptual independence.
+
+For reader evaluation, use an enlarged excerpt when short gestures hide their numeric B/N labels. Do not assume color alone is sufficient in grayscale or for every reader. See `FEEDBACK_KIT.md` for explicit comprehension checks and `REFLECTION_DRAFT.md` for the distinction between engineering evidence and listening observations.

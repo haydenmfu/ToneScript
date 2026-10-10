@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { examples } from '../src/examples.mjs';
 import { assertScore, validateScore, serialize, parseScore, neutralScore } from '../src/score.mjs';
 import { renderScore, encodeWav } from '../src/synth.mjs';
-import { scoreSVG } from '../src/notation.mjs';
+import { scoreSVG,layoutScore } from '../src/notation.mjs';
 const fixture = () => structuredClone(examples[0]);
 test('score round trip preserves the complete musical document', () => {
   for (const s of examples) assert.deepEqual(parseScore(serialize(s)), s);
@@ -57,4 +57,13 @@ test('WAV header and byte count match output, and invalid samples are rejected',
 test('SVG escapes user text and retains legend, time and accessible events', () => {
   const s=fixture(); s.title='<script>alert(1)</script>'; const svg=scoreSVG(s);
   assert.ok(!svg.includes('<script>')); assert.ok(svg.includes('&lt;script&gt;')); assert.ok(svg.includes('data-event="s1"')); assert.ok(svg.includes('Read the sound')); assert.ok(svg.includes('8s'));
+});
+test('overlapping events receive distinct visual subrows without inventing pitch positions',()=>{
+  const s=fixture();s.lanes[0].events[1].start=1;
+  const layout=layoutScore(s);assert.notEqual(layout.rows[0].slots.get('s1'),layout.rows[0].slots.get('s2'));assert.equal(layout.rows[0].height,260);
+  assert.ok(scoreSVG(s,{interactive:true}).includes('role="group"'));
+});
+test('notation preserves an entrance longer than half a gesture',()=>{
+  const s=fixture();s.duration=10;s.lanes[0].events=[{...s.lanes[0].events[0],start:0,duration:10,timbre:{brightness:[0,1],noise:[0,0],attack:8,release:1,decay:0}}];
+  const svg=scoreSVG(s);assert.ok(svg.includes('M190 195L970 138H1067.5'),'80% entrance must extend to x970, not midpoint');
 });
