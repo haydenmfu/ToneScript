@@ -1,5 +1,9 @@
 # ToneScript
 
+## Listening review packet
+
+After generating the studies, run `node scripts/build-review.mjs` and open `outputs/review/review-A.html`. The folder contains both scores, local audio comparisons, source credits, a response sheet, and a facilitator key. Use `review-B.html` for the next listener to reverse comparison ordering. No server is needed. Keep the entire folder together when sharing it; this packet is for noncommercial review. Timed recognition targets still need pilot listening before formal scoring.
+
 A readable, editable, playable score for how music sounds.
 
 ToneScript turns short recordings into editable suggestions for a timbre score: time runs left to right, color represents brightness, dots represent noise-like character, and slopes represent entrances and releases. Its synthesizer interprets the saved score using harmonics and noise. Pitch, timing, and gain are explicit supporting information; source recordings and separated stems are never inputs to that synthesizer.

@@ -1,6 +1,17 @@
 import { assertScore } from './score.mjs';
 export const escapeXML = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
 const color = v => `hsl(${Math.round(225 - 185 * v)},65%,${Math.round(30 + 35 * v)}%)`;
+function labelLines(name,limit=18) {
+  const lines=[];let line='';
+  for(const word of name.split(/\s+/).filter(Boolean)) {
+    if(line&&(line.length+word.length+1>limit)){lines.push(line);line='';}
+    let part=word;
+    while(part.length>limit){if(line){lines.push(line);line='';}lines.push(part.slice(0,limit));part=part.slice(limit);}
+    if(part)line=line?`${line} ${part}`:part;
+  }
+  if(line)lines.push(line);
+  return lines.length?lines:[''];
+}
 export function layoutScore(score) {
   let y=130;
   const rows=score.lanes.map(lane=>{
@@ -40,7 +51,11 @@ export function scoreSVG(score, { selected = null, interactive = false } = {}) {
   index = 0;
   score.lanes.forEach((lane, li) => {
     const row=rows[li];
-    out.push(`<text class="name" x="25" y="${row.y + 20}">${escapeXML(lane.name.slice(0, 21))}</text><text class="small" x="25" y="${row.y + 41}">${lane.events.length} gestures</text>`);
+    const names=labelLines(lane.name);
+    const lineHeight=Math.min(19,90/(names.length+1));
+    const fontSize=Math.min(14,lineHeight*.8);
+    for(const [i,name] of names.entries())out.push(`<text class="name" style="font-size:${fontSize}px" x="25" y="${row.y + 20+i*lineHeight}" textLength="${Math.min(150,name.length*fontSize*.58)}" lengthAdjust="spacingAndGlyphs">${escapeXML(name)}</text>`);
+    out.push(`<text class="small" x="25" y="${row.y + 23+names.length*lineHeight}">${lane.events.length} gestures</text>`);
     out.push(`<path d="M${left} ${row.y + 71}H${width - right}" stroke="#dcdedb"/>`);
     for (const e of lane.events) {
       const y=row.y+row.slots.get(e.id)*130;

@@ -119,4 +119,3 @@ export function analyzeAudio(samples,sampleRate,{title='Audio study',sourceName=
   assertScore(score);
   return {score,report:{analyzer:ANALYZER,frames:frames.length,events:events.length,threshold,peakRms:peak,duration,warnings:['Spectral centroid depends on pitch and recording conditions.','Flatness is a noise proxy, not a direct measure of breathiness or roughness.','Dominant-pitch estimates are unreliable for polyphonic mixtures.','All gestures require listening review.']}};
 }
-

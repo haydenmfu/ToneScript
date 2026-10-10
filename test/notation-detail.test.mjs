@@ -43,3 +43,13 @@ test('microsecond rounding seams share a row but genuine overlaps keep separate 
     assert.notEqual(row.slots.get('a'),row.slots.get('b'));
   }
 });
+
+test('long lane labels wrap completely inside the gutter without moving musical rows',()=>{
+  const score=study([gesture('one',0,1)]);score.lanes[0].name='Mixture · suggested gestures';
+  const before=layoutScore(score),svg=scoreSVG(score);
+  const labels=[...svg.matchAll(/<text class="name"[^>]*textLength="([^"]+)"[^>]*>([^<]*)<\/text>/g)];
+  assert.equal(labels.map(match=>match[2]).join(' '),score.lanes[0].name);
+  assert.ok(labels.length>1);assert.ok(labels.every(match=>Number(match[1])<=150));
+  assert.deepEqual(layoutScore(score),before);
+  assert.match(svg,/<text class="small" x="25" y="191">1 gestures<\/text>/);
+});

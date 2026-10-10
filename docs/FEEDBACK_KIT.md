@@ -63,4 +63,3 @@ Generate/edit scores using the same analyzer settings and legend. Compare the sa
 ## Report after testing
 
 State actual participant count, musical experience categories, order, missing answers, raw task results, and 2–3 anonymous comments only with permission. Separate technical outcomes, your listening, and others' responses. Link before/after scores and explain any revision. No collected responses means “evaluation pending,” never “users found it intuitive.”
-

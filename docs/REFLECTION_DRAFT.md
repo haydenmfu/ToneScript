@@ -69,4 +69,3 @@ Personal prompt: [What do you now listen for that you did not notice before? If 
 - Preserve source attribution and explain the Choice adaptation.
 - Remove prompts, draft labels only when appropriate, and unsupported claims.
 - Check approximate word count against the instructor's expectations; the assignment says “about 1000,” not an exact technical report length.
-

@@ -85,7 +85,8 @@
 <path d="M677.5 110V650" stroke="#dcdedb"/><text class="tick" x="677.5" y="100" text-anchor="middle">10s</text>
 <path d="M921.25 110V650" stroke="#dcdedb"/><text class="tick" x="921.25" y="100" text-anchor="middle">15s</text>
 <path d="M1165 110V650" stroke="#dcdedb"/><text class="tick" x="1165" y="100" text-anchor="middle">20s</text>
-<text class="name" x="25" y="150">Estimated drums</text><text class="small" x="25" y="171">47 gestures</text>
+<text class="name" style="font-size:14px" x="25" y="150" textLength="121.8" lengthAdjust="spacingAndGlyphs">Estimated drums</text>
+<text class="small" x="25" y="172">47 gestures</text>
 <path d="M190 201H1165" stroke="#dcdedb"/>
 <g data-event="drums-suggested-1"  aria-label="Estimated drums at 0s; brightness 0.846 to 0.912; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 0s–0.093s · pitch unpitched · gain 0.1749 · decay 0</title>
@@ -565,7 +566,8 @@
 <circle cx="1158.4027112499998" cy="149.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<text class="name" x="25" y="280">Estimated bass</text><text class="small" x="25" y="301">28 gestures</text>
+<text class="name" style="font-size:14px" x="25" y="280" textLength="113.67999999999999" lengthAdjust="spacingAndGlyphs">Estimated bass</text>
+<text class="small" x="25" y="302">28 gestures</text>
 <path d="M190 331H1165" stroke="#dcdedb"/>
 <g data-event="bass-suggested-1"  aria-label="Estimated bass at 0s; brightness 0.028 to 0.043; noise 0.003 to 0.003">
 <title>Unreviewed audio-analysis suggestion · 0s–0.325s · pitch 33 · gain 0.1316 · decay 0</title>
@@ -779,9 +781,11 @@
 <clipPath id="texture74"><path d="M1144.2530725 325L1147.6489975 268H1161.1L1165 325Z"/></clipPath><g clip-path="url(#texture74)">
 </g>
 </g>
-<text class="name" x="25" y="410">Estimated other</text><text class="small" x="25" y="431">0 gestures</text>
+<text class="name" style="font-size:14px" x="25" y="410" textLength="121.8" lengthAdjust="spacingAndGlyphs">Estimated other</text>
+<text class="small" x="25" y="432">0 gestures</text>
 <path d="M190 461H1165" stroke="#dcdedb"/>
-<text class="name" x="25" y="540">Estimated vocals</text><text class="small" x="25" y="561">0 gestures</text>
+<text class="name" style="font-size:14px" x="25" y="540" textLength="129.92" lengthAdjust="spacingAndGlyphs">Estimated vocals</text>
+<text class="small" x="25" y="562">0 gestures</text>
 <path d="M190 591H1165" stroke="#dcdedb"/>
 <text x="30" y="675" font-size="16" font-weight="bold">Read the sound</text>
 <text x="30" y="701" font-size="14">B / blue → gold: dark → bright. N / more dots: tonal → noise-like. Values 0–100; transitions are linear.</text>

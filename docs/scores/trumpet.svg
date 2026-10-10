@@ -15,7 +15,9 @@
 <path d="M738.4328040441154 110V260" stroke="#dcdedb"/><text class="tick" x="738.4328040441154" y="100" text-anchor="middle">3s</text>
 <path d="M921.2437387254871 110V260" stroke="#dcdedb"/><text class="tick" x="921.2437387254871" y="100" text-anchor="middle">4s</text>
 <path d="M1104.054673406859 110V260" stroke="#dcdedb"/><text class="tick" x="1104.054673406859" y="100" text-anchor="middle">5s</text>
-<text class="name" x="25" y="150">Mixture · suggested g</text><text class="small" x="25" y="171">4 gestures</text>
+<text class="name" style="font-size:14px" x="25" y="150" textLength="73.08" lengthAdjust="spacingAndGlyphs">Mixture ·</text>
+<text class="name" style="font-size:14px" x="25" y="169" textLength="146.16" lengthAdjust="spacingAndGlyphs">suggested gestures</text>
+<text class="small" x="25" y="191">4 gestures</text>
 <path d="M190 201H1165" stroke="#dcdedb"/>
 <g data-event="suggested-1"  aria-label="Mixture · suggested gestures at 0s; brightness 0.57 to 0.548; noise 0.01 to 0.019">
 <title>Unreviewed audio-analysis suggestion · 0s–1.324s · pitch 71.9 · gain 0.5335 · decay 0</title>

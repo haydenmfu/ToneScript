@@ -16,6 +16,11 @@ This record describes observed technical behavior, not listening quality. Worktr
 - After core fixes, `npm run studies` succeeded: trumpet has four gestures, Choice has 75. Both remain unreviewed suggestions.
 - `npm run check` passed lint, syntax, and all 38 tests with loopback access enabled. This includes pitch boundary/sweep tests, score-only rendering, correction round trips, and HTTP job handling.
 
-## Pending
+## Review packet and publication
 
-Browser save/reopen verification, narrow-glyph texture correction and final export inspection, remote CI, and actual listening evidence remain pending. A playback control changing state is not evidence that reconstruction sounds correct.
+- Published checkpoint `a2646b8be5b72cac381f9531d04aad90818a2d87`; verified the remote branch hash. GitHub push and PR checks both completed successfully (runs 38064982378 and 38064985008).
+- Built `outputs/review/` with offline HTML pages, both SVG scores and complete-value tables, score JSON, level-matched reference/neutral/score/edited WAVs, reversed X/Y order pages, facilitator key, and response sheet. Every WAV decodes; Choice is 20 seconds, trumpet approximately 5.3334 seconds (render duration differs from the reference by one sample).
+- Visually inspected both regenerated SVGs in the browser. Narrow drum glyphs now retain dots, rounding seams no longer create spurious bass subrows, and the long trumpet layer name wraps inside its gutter. Both timelines and legends are visible.
+- The review page displays both applications, source attribution, and all ten audio controls. No listener responses or perceptual conclusions have been collected.
+
+The final label-wrapping update passed all 42 checks, lint and syntax. Browser save/reopen verification and actual listening evidence remain pending. A playback control changing state is not evidence that reconstruction sounds correct.
