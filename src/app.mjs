@@ -7,6 +7,7 @@ import { recordCorrections } from './corrections.mjs';
 const $ = id => document.getElementById(id);
 let score = structuredClone(examples[0]);
 let selected = score.lanes[0].events[0].id;
+let selectedStudy = 0;
 let history = [], context, source, reference, referenceName = '', referenceHash = '', started = 0, offset = 0, playing = false, raf, epoch = 0;
 let referenceStart = 0, dirty = false;
 let activeJob = null, referenceAttribution = null;
@@ -15,9 +16,9 @@ let estimatedSources = new Map();
 const studies = [...examples];
 const autosaveKey = 'tonescript.editor.v1';
 function persist() { try { localStorage.setItem(autosaveKey, serialize(score)); dirty = false; } catch { dirty = true; status('Browser storage is full or unavailable. Save the score before closing.', true); } }
-function remember() { history.push({score:serialize(score),reference,referenceName,referenceHash,referenceAttribution,referenceStart,estimatedSources});if(history.length>100)history.shift(); }
+function remember() { history.push({score:serialize(score),selectedStudy,reference,referenceName,referenceHash,referenceAttribution,referenceStart,estimatedSources});if(history.length>100)history.shift(); }
 function clearReference() { reference=null;referenceName='';referenceHash='';referenceAttribution=null;referenceStart=0;estimatedSources=new Map();$('reference-start').value=0; }
-function replaceScore(next, message, keepReference=false) {stop(true);remember();score=assertScore(next);selected=score.lanes[0]?.events[0]?.id;estimatedSources=new Map();if(!keepReference)clearReference();persist();draw();status(message);}
+function replaceScore(next, message, keepReference=false,studyIndex=-1) {stop(true);remember();score=assertScore(next);selectedStudy=studyIndex;selected=score.lanes[0]?.events[0]?.id;estimatedSources=new Map();if(!keepReference)clearReference();persist();draw();status(message);}
 function bufferMetrics(buffer) {
   let energy=0,peak=0;
   for(let c=0;c<buffer.numberOfChannels;c++){const metrics=signalMetrics(buffer.getChannelData(c));energy+=metrics.rms**2;peak=Math.max(peak,metrics.peak);}
@@ -66,6 +67,8 @@ function setValue(event, key, value) {
   }
 }
 function draw() {
+  $('example').value=String(selectedStudy);
+  $('reset').disabled=selectedStudy<0;
   $('score-title').textContent = score.title;
   $('provenance').textContent = score.provenance.note || score.provenance.kind;
   $('score').innerHTML = scoreSVG(score, {selected,interactive:true});
@@ -184,8 +187,8 @@ function download(data, name, type) {
   const url = URL.createObjectURL(new Blob([data], { type }));
   const a = document.createElement('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url),1000);
 }
-$('example').replaceChildren(...studies.map((s,i) => new Option(s.title,i)));
-$('example').onchange = () => { replaceScore(structuredClone(studies[+$('example').value]),'Study loaded. Undo restores your previous score. Load its matching recording to compare.'); };
+$('example').replaceChildren(new Option('Current imported or recovered score', '-1'),...studies.map((s,i) => new Option(s.title,i)));
+$('example').onchange = () => { const index=+$('example').value;if(index<0)return;replaceScore(structuredClone(studies[index]),'Study loaded. Undo restores your previous score. Load its matching recording to compare.',false,index); };
 $('reset').onclick = () => $('example').onchange();
 $('zoom').onchange = () => draw();
 $('gesture').onchange = () => {selected=$('gesture').value;draw();};
@@ -198,7 +201,7 @@ $('inspector').onchange = event => {
   try { mutate(next => { const e=next.lanes.flatMap(l => l.events).find(e => e.id === selected);if(valueAt(e,key)===value)return;setValue(e,key,value);e.reviewed=false;if(key==='pitch'&&value===null)e.timbre.noise=[1,1]; },{action:`edit gesture ${key}`}); status('Gesture saved. Play to compare and review any changed sound.'); }
   catch (error) { status(error.message,true); draw(); }
 };
-$('undo').onclick = () => { if (!history.length) return; stop();const previous=history.pop();score=parseScore(previous.score);reference=previous.reference;referenceName=previous.referenceName;referenceHash=previous.referenceHash;referenceAttribution=previous.referenceAttribution;referenceStart=previous.referenceStart;estimatedSources=previous.estimatedSources;$('reference-start').value=referenceStart;offset=Math.min(offset,score.duration);selected=score.lanes[0]?.events[0]?.id;persist();draw();status('Previous score restored with its matching reference and estimated layers.'); };
+$('undo').onclick = () => { if (!history.length) return; stop();const previous=history.pop();score=parseScore(previous.score);selectedStudy=previous.selectedStudy;reference=previous.reference;referenceName=previous.referenceName;referenceHash=previous.referenceHash;referenceAttribution=previous.referenceAttribution;referenceStart=previous.referenceStart;estimatedSources=previous.estimatedSources;$('reference-start').value=referenceStart;offset=Math.min(offset,score.duration);selected=score.lanes[0]?.events[0]?.id;persist();draw();status('Previous score restored with its matching reference and estimated layers.'); };
 $('add').onclick = () => {
   const start = Math.min(offset, Math.max(0, score.duration - .5));
   const duration = Math.min(1, score.duration-start);
@@ -303,6 +306,6 @@ $('separate').onclick=async()=>{
   }catch(error){if(request===epoch)status(error.message,true);}finally{$('separate').disabled=!reference;}
 };
 window.addEventListener('beforeunload',event=>{if(dirty){event.preventDefault();event.returnValue='';}});
-try{const saved=localStorage.getItem(autosaveKey);if(saved){score=parseScore(saved);selected=score.lanes[0]?.events[0]?.id;status('Recovered your last score. Load its matching recording to compare; recordings are not autosaved.');}}catch{status('Could not restore the last browser draft. You can open a saved score.',true);}
+try{const saved=localStorage.getItem(autosaveKey);if(saved){score=parseScore(saved);selectedStudy=-1;selected=score.lanes[0]?.events[0]?.id;status('Recovered your last score. Load its matching recording to compare; recordings are not autosaved.');}}catch{status('Could not restore the last browser draft. You can open a saved score.',true);}
 draw();
 Promise.allSettled(['trumpet','choice'].map(async name=>{const response=await fetch(`/examples/${name}.json`);if(!response.ok)return;const study=parseScore(await response.text());studies.push(study);builtInAudio.set(study.provenance.source?.reference||study.title,name);$('example').append(new Option(`${study.title} · draft`,studies.length-1));$('load-example-audio').hidden=!builtInAudio.has(score.provenance.source?.reference||score.title);}));
