@@ -30,5 +30,6 @@ for(const order of ['A','B']) {
 await writeFile(`${out}/FACILITATOR-KEY.json`,JSON.stringify({revision,dirty,created:new Date().toISOString(),orders:{A:{trumpet:['neutral','score'],choice:['score','neutral']},B:{trumpet:['score','neutral'],choice:['neutral','score']}},studies:key},null,2));
 await copyFile('docs/feedback/SESSION_TEMPLATE.md',`${out}/RESPONSE-SHEET.md`);
 await copyFile('docs/FEEDBACK_KIT.md',`${out}/FACILITATOR-GUIDE.md`);
+await copyFile('docs/DEMO.md',`${out}/DEMO.md`);
 await writeFile(`${out}/START-HERE.txt`,'Open review-A.html in a browser. No installation or server is required. For the next listener use review-B.html to reverse comparison order. Keep FACILITATOR-KEY.json hidden until responses are recorded. This is an initial review packet, not completed evaluation. Use RESPONSE-SHEET.md or write answers on paper. The timed-change task still needs pilot listening and predeclared targets; do not score it until those are set. Audio is RMS matched with shared peak headroom, not perceptually loudness-normalized. Source credits and licenses are on each page; Choice is for noncommercial use. Do not infer listening quality from software tests.\n');
 console.log(`Review packet written to ${out}; open review-A.html. Timed targets and responses remain pending.`);
