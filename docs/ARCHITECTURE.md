@@ -1,6 +1,6 @@
 # Architecture and decisions
 
-Status: proposed boundaries, not an implemented system. Select languages, libraries, models, and deployment only after the first technical spike.
+Status: the pipeline below is implemented as a local browser editor, deterministic JavaScript renderer, and optional Python separation service. Musical usefulness and final applied scores still require listening review. See `COMPLETION_AUDIT.md` for the remaining gates.
 
 ## Pipeline
 
@@ -16,7 +16,7 @@ Reference audio → optional separation → analysis suggestions
 
 The editor and renderer share a versioned score contract. Analysis is replaceable and suggestions can be corrected. The renderer consumes the score and declared instrument/synthesis assets, not an implicit reference-audio fallback.
 
-## Proposed score layers
+## Score layers
 
 - Provenance: recording identity, excerpt offset, analysis version, manual edits.
 - Musical scaffolding: timing, source lanes, pitch where meaningful, duration, and dynamics. Unpitched sounds must not require invented pitches.

@@ -1,0 +1,34 @@
+{
+  "notes": "Reference recordings remain outside Git. Automated scores are drafts until listening-reviewed. Noncommercial course use; preserve original attribution and licenses in any shared derivative.",
+  "sources": [
+    {
+      "id": "trumpet",
+      "title": "solo trumpet 06",
+      "artist": "Mihai Sorohan",
+      "reference": "https://freesound.org/s/77711/",
+      "audio": "https://librosa.org/data/audio/sorohanro_-_solo-trumpet-06.ogg",
+      "metadata": "https://librosa.org/data/audio/sorohanro_-_solo-trumpet-06.toml",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "8374466fd3951d24509da6e799b132a0db0bdeda69d99c69d989a6888d3d727d",
+      "excerptStart": 0,
+      "excerptEnd": 5.333379,
+      "contrast": "Exposed monophonic brass phrase with identifiable entrances and changing harmonic content."
+    },
+    {
+      "id": "choice",
+      "title": "Choice — drum and bass excerpt",
+      "artist": "Admiral Bob featuring Snowflake",
+      "reference": "http://dig.ccmixter.org/files/admiralbob77/61638",
+      "audio": "https://librosa.org/data/audio/admiralbob77_-_Choice_-_Drum-bass.ogg",
+      "metadata": "https://librosa.org/data/audio/admiralbob77_-_Choice_-_Drum-bass.toml",
+      "license": "CC-BY-NC-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sha256": "ac644f9645e7c15174e4a4f8561e4d1448d7f6e59ff6b0556b310ebbced879bc",
+      "excerptStart": 0,
+      "excerptEnd": 20,
+      "adaptation": "The librosa reference was truncated and reduced to drums and bass by Brian McFee (2020). ToneScript uses its first 20 seconds, not an asserted timestamp in the full original mix.",
+      "contrast": "Overlapping pitched bass and transient percussion; tests the limitations of mixture-level timbre notation."
+    }
+  ]
+}

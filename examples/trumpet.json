@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "renderer": "harmonic-noise-v1",
+  "title": "Mihai Sorohan · solo trumpet 06",
+  "duration": 5.333379,
+  "seed": 42,
+  "provenance": {
+    "kind": "automatic suggestions; not listening-reviewed",
+    "sourceName": "trumpet",
+    "sourceHash": "4eb24d7b33665c37c210079312203fa4523190b475443e31e1cac54d7109d195",
+    "analyzer": "spectral-gesture-v2",
+    "sampleRate": 22050,
+    "frameSize": 2048,
+    "hopSize": 512,
+    "pitchEstimator": {
+      "method": "full-rate YIN-style difference with raw-minimum interpolation",
+      "threshold": 0.12,
+      "midiRange": [
+        24,
+        108
+      ],
+      "boundaryAllowanceSemitones": 0.15
+    },
+    "note": "Applied draft from recorded audio. Automatic suggestions require listening corrections; instrument labels describe estimated source groups.",
+    "manualEdits": [],
+    "source": {
+      "id": "trumpet",
+      "title": "solo trumpet 06",
+      "artist": "Mihai Sorohan",
+      "reference": "https://freesound.org/s/77711/",
+      "audio": "https://librosa.org/data/audio/sorohanro_-_solo-trumpet-06.ogg",
+      "metadata": "https://librosa.org/data/audio/sorohanro_-_solo-trumpet-06.toml",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "8374466fd3951d24509da6e799b132a0db0bdeda69d99c69d989a6888d3d727d",
+      "excerptStart": 0,
+      "excerptEnd": 5.333379,
+      "contrast": "Exposed monophonic brass phrase with identifiable entrances and changing harmonic content."
+    }
+  },
+  "lanes": [
+    {
+      "id": "analysis",
+      "name": "Mixture · suggested gestures",
+      "events": [
+        {
+          "id": "suggested-1",
+          "start": 0,
+          "duration": 1.323537,
+          "pitch": 71.9,
+          "gain": 0.5335,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.57,
+              0.548
+            ],
+            "noise": [
+              0.01,
+              0.019
+            ],
+            "attack": 0.20898,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-2",
+          "start": 1.323537,
+          "duration": 0.557279,
+          "pitch": 67.8,
+          "gain": 0.3433,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.548,
+              0.486
+            ],
+            "noise": [
+              0.019,
+              0.007
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-3",
+          "start": 1.927256,
+          "duration": 0.348299,
+          "pitch": 69.9,
+          "gain": 0.4835,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.608,
+              0.561
+            ],
+            "noise": [
+              0.04,
+              0.03
+            ],
+            "attack": 0.09288,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-4",
+          "start": 2.275556,
+          "duration": 0.766259,
+          "pitch": 65,
+          "gain": 0.412,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.541,
+              0.471
+            ],
+            "noise": [
+              0.02,
+              0.005
+            ],
+            "attack": 0.09288,
+            "release": 0.08,
+            "decay": 0
+          }
+        }
+      ]
+    }
+  ]
+}
