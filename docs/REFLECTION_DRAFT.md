@@ -69,3 +69,7 @@ Personal prompt: [What do you now listen for that you did not notice before? If 
 - Preserve source attribution and explain the Choice adaptation.
 - Remove prompts, draft labels only when appropriate, and unsupported claims.
 - Check approximate word count against the instructor's expectations; the assignment says “about 1000,” not an exact technical report length.
+
+## Actual feedback available for the next draft
+
+The student initially reported that both reconstructions omitted much of the music. After note-recovery changes and a source / old / revised comparison, the student reported “Improved, but still missing notes,” and clarified that this applied to both excerpts. This supports an honest account of an unsuccessful first reconstruction and partial revision. It does not support a claim that either application now preserves the full phrase, that musicians found the notation useful, or that one timbre condition won. Use this experience in the reflection after the remaining musical evaluation; do not fill the personal prompts with invented listening details.
