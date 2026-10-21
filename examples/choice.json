@@ -1,0 +1,2488 @@
+{
+  "version": "1.0",
+  "renderer": "harmonic-noise-v1",
+  "title": "Admiral Bob featuring Snowflake · Choice — drum and bass excerpt",
+  "duration": 20,
+  "seed": 42,
+  "provenance": {
+    "kind": "automatic suggestions; not listening-reviewed",
+    "sourceName": "choice",
+    "sourceHash": "315e8a4a3f794a2199bf78cf284a0dc50a2c20fe25835cb46acb9b5aed61eb22",
+    "analyzer": "spectral-gesture-v3.1",
+    "sampleRate": 22050,
+    "frameSize": 2048,
+    "hopSize": 512,
+    "pitchEstimator": {
+      "method": "full-rate YIN-style difference with raw-minimum interpolation",
+      "threshold": 0.12,
+      "midiRange": [
+        24,
+        108
+      ],
+      "boundaryAllowanceSemitones": 0.15
+    },
+    "segmentation": {
+      "method": "stable pitch change against note anchor",
+      "pitchChangeSemitones": 0.65,
+      "stableFrames": 3,
+      "stableSpreadSemitones": 0.45,
+      "minimumSplitSeconds": 0.065,
+      "articulationWindowSamples": 512,
+      "articulationDipRatio": 0.8,
+      "articulationRiseRatio": 1.4
+    },
+    "note": "Applied draft from recorded audio. Automatic suggestions require listening corrections; instrument labels describe estimated source groups.",
+    "manualEdits": [],
+    "layers": [
+      {
+        "kind": "automatic suggestions; not listening-reviewed",
+        "sourceName": "Choice / estimated drums",
+        "sourceHash": "81e49f878a729439c4a0508451dc375032d1d6b824db7841c949921433fe7126",
+        "analyzer": "spectral-gesture-v3.1",
+        "sampleRate": 22050,
+        "frameSize": 2048,
+        "hopSize": 512,
+        "pitchEstimator": {
+          "method": "full-rate YIN-style difference with raw-minimum interpolation",
+          "threshold": 0.12,
+          "midiRange": [
+            24,
+            108
+          ],
+          "boundaryAllowanceSemitones": 0.15
+        },
+        "segmentation": {
+          "method": "stable pitch change against note anchor",
+          "pitchChangeSemitones": 0.65,
+          "stableFrames": 3,
+          "stableSpreadSemitones": 0.45,
+          "minimumSplitSeconds": 0.065,
+          "articulationWindowSamples": 512,
+          "articulationDipRatio": 0.8,
+          "articulationRiseRatio": 1.4
+        },
+        "note": "Approximate single periodic pitch and spectral descriptors. Polyphonic notes are not recovered. Unknown pitch maps to a noise carrier; this is not proof of noisy timbre. Forward windows can anticipate onsets by up to one frame. Correct by listening before submission.",
+        "manualEdits": []
+      },
+      {
+        "kind": "automatic suggestions; not listening-reviewed",
+        "sourceName": "Choice / estimated bass",
+        "sourceHash": "8b011259700128529cdeaeb3b6acd5e3caf7e15f0e6a22a55d03cf9a77eda9ed",
+        "analyzer": "spectral-gesture-v3.1",
+        "sampleRate": 22050,
+        "frameSize": 2048,
+        "hopSize": 512,
+        "pitchEstimator": {
+          "method": "full-rate YIN-style difference with raw-minimum interpolation",
+          "threshold": 0.12,
+          "midiRange": [
+            24,
+            108
+          ],
+          "boundaryAllowanceSemitones": 0.15
+        },
+        "segmentation": {
+          "method": "stable pitch change against note anchor",
+          "pitchChangeSemitones": 0.65,
+          "stableFrames": 3,
+          "stableSpreadSemitones": 0.45,
+          "minimumSplitSeconds": 0.065,
+          "articulationWindowSamples": 512,
+          "articulationDipRatio": 0.8,
+          "articulationRiseRatio": 1.4
+        },
+        "note": "Approximate single periodic pitch and spectral descriptors. Polyphonic notes are not recovered. Unknown pitch maps to a noise carrier; this is not proof of noisy timbre. Forward windows can anticipate onsets by up to one frame. Correct by listening before submission.",
+        "manualEdits": []
+      },
+      {
+        "kind": "automatic suggestions; not listening-reviewed",
+        "sourceName": "Choice / estimated other",
+        "sourceHash": "cce2e3bb4e78db5d10e841db8571c51f5740786a35ca4dff8dd693c2b532add9",
+        "analyzer": "spectral-gesture-v3.1",
+        "sampleRate": 22050,
+        "frameSize": 2048,
+        "hopSize": 512,
+        "pitchEstimator": {
+          "method": "full-rate YIN-style difference with raw-minimum interpolation",
+          "threshold": 0.12,
+          "midiRange": [
+            24,
+            108
+          ],
+          "boundaryAllowanceSemitones": 0.15
+        },
+        "segmentation": {
+          "method": "stable pitch change against note anchor",
+          "pitchChangeSemitones": 0.65,
+          "stableFrames": 3,
+          "stableSpreadSemitones": 0.45,
+          "minimumSplitSeconds": 0.065,
+          "articulationWindowSamples": 512,
+          "articulationDipRatio": 0.8,
+          "articulationRiseRatio": 1.4
+        },
+        "note": "Approximate single periodic pitch and spectral descriptors. Polyphonic notes are not recovered. Unknown pitch maps to a noise carrier; this is not proof of noisy timbre. Forward windows can anticipate onsets by up to one frame. Correct by listening before submission.",
+        "manualEdits": []
+      },
+      {
+        "kind": "automatic suggestions; not listening-reviewed",
+        "sourceName": "Choice / estimated vocals",
+        "sourceHash": "7ab124b18b739c4afba5e7acb7ce9b338525986b605dacc4479b2c2dd4d74754",
+        "analyzer": "spectral-gesture-v3.1",
+        "sampleRate": 22050,
+        "frameSize": 2048,
+        "hopSize": 512,
+        "pitchEstimator": {
+          "method": "full-rate YIN-style difference with raw-minimum interpolation",
+          "threshold": 0.12,
+          "midiRange": [
+            24,
+            108
+          ],
+          "boundaryAllowanceSemitones": 0.15
+        },
+        "segmentation": {
+          "method": "stable pitch change against note anchor",
+          "pitchChangeSemitones": 0.65,
+          "stableFrames": 3,
+          "stableSpreadSemitones": 0.45,
+          "minimumSplitSeconds": 0.065,
+          "articulationWindowSamples": 512,
+          "articulationDipRatio": 0.8,
+          "articulationRiseRatio": 1.4
+        },
+        "note": "Approximate single periodic pitch and spectral descriptors. Polyphonic notes are not recovered. Unknown pitch maps to a noise carrier; this is not proof of noisy timbre. Forward windows can anticipate onsets by up to one frame. Correct by listening before submission.",
+        "manualEdits": []
+      }
+    ],
+    "separation": {
+      "method": "demucs",
+      "input": "choice.wav",
+      "input_sha256": "315e8a4a3f794a2199bf78cf284a0dc50a2c20fe25835cb46acb9b5aed61eb22",
+      "input_sample_rate": 22050,
+      "duration_seconds": 20,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.5",
+      "versions": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "soundfile": "0.13.1",
+        "librosa": "0.11.0",
+        "demucs": "4.0.1",
+        "torch": "2.14.1",
+        "torchaudio": "2.11.0"
+      },
+      "listening_review": "pending",
+      "normalization": "no per-stem peak normalization; float WAV retains raw levels",
+      "parameters": {
+        "model": "htdemucs",
+        "device": "cpu",
+        "threads": 4,
+        "shifts": 0,
+        "overlap": 0.25,
+        "seed": 42
+      },
+      "weights": [
+        {
+          "filename": "955717e8-8726e21a.th",
+          "sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4"
+        }
+      ],
+      "interpretation": "Estimated drums/bass/other/vocals. A named output does not prove that source is present.",
+      "output_sample_rate": 44100,
+      "stems": [
+        {
+          "name": "drums",
+          "rms": 0.023747820407152176,
+          "peak": 0.2952283024787903,
+          "samples": 882000
+        },
+        {
+          "name": "bass",
+          "rms": 0.03781197592616081,
+          "peak": 0.23069866001605988,
+          "samples": 882000
+        },
+        {
+          "name": "other",
+          "rms": 0.0004022758803330362,
+          "peak": 0.01047113910317421,
+          "samples": 882000
+        },
+        {
+          "name": "vocals",
+          "rms": 0.00006517193833133206,
+          "peak": 0.0017705034697428346,
+          "samples": 882000
+        }
+      ],
+      "sum_residual_rms": 0.0005914755747653544,
+      "elapsed_seconds": 13.257231899999624
+    },
+    "source": {
+      "id": "choice",
+      "title": "Choice — drum and bass excerpt",
+      "artist": "Admiral Bob featuring Snowflake",
+      "reference": "http://dig.ccmixter.org/files/admiralbob77/61638",
+      "audio": "https://librosa.org/data/audio/admiralbob77_-_Choice_-_Drum-bass.ogg",
+      "metadata": "https://librosa.org/data/audio/admiralbob77_-_Choice_-_Drum-bass.toml",
+      "license": "CC-BY-NC-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sha256": "ac644f9645e7c15174e4a4f8561e4d1448d7f6e59ff6b0556b310ebbced879bc",
+      "excerptStart": 0,
+      "excerptEnd": 20,
+      "adaptation": "The librosa reference was truncated and reduced to drums and bass by Brian McFee (2020). ToneScript uses its first 20 seconds, not an asserted timestamp in the full original mix.",
+      "contrast": "Overlapping pitched bass and transient percussion; tests the limitations of mixture-level timbre notation."
+    }
+  },
+  "lanes": [
+    {
+      "id": "drums",
+      "name": "Estimated drums",
+      "events": [
+        {
+          "id": "drums-suggested-1",
+          "start": 0,
+          "duration": 0.09288,
+          "pitch": null,
+          "gain": 0.1749,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.846,
+              0.912
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.005,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-2",
+          "start": 0.394739,
+          "duration": 0.06966,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.935,
+              0.948
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.005,
+            "release": 0.017415,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-3",
+          "start": 0.812698,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1414,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.765,
+              0.883
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-4",
+          "start": 1.253878,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.948,
+              0.951
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-5",
+          "start": 1.462857,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.536,
+              0.684
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-6",
+          "start": 1.695057,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.235,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.761,
+              0.88
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-7",
+          "start": 2.577415,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1421,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.756,
+              0.862
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-8",
+          "start": 3.227574,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.467,
+              0.649
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-9",
+          "start": 3.459773,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.2301,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.79,
+              0.897
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-10",
+          "start": 4.342132,
+          "duration": 0.20898,
+          "pitch": null,
+          "gain": 0.1392,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.753,
+              0.852
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-11",
+          "start": 4.99229,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.2345,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.677,
+              0.618
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-12",
+          "start": 5.22449,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.943,
+              0.94
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-13",
+          "start": 5.456689,
+          "duration": 0.1161,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.756,
+              0.651
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.029025,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-14",
+          "start": 5.665669,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.2155,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.772,
+              0.909
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-15",
+          "start": 6.106848,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1419,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.76,
+              0.89
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-16",
+          "start": 6.339048,
+          "duration": 0.09288,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.925,
+              0.948
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.005,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-17",
+          "start": 6.548027,
+          "duration": 0.441179,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.92,
+              0.926
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.06966,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-18",
+          "start": 6.989206,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.23,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.736,
+              0.762
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-19",
+          "start": 7.871565,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.151,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.759,
+              0.899
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-20",
+          "start": 8.312744,
+          "duration": 0.09288,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.918,
+              0.935
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-21",
+          "start": 8.521723,
+          "duration": 0.13932,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.501,
+              0.535
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.03483,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-22",
+          "start": 8.753923,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.2313,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.758,
+              0.881
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-23",
+          "start": 9.636281,
+          "duration": 0.20898,
+          "pitch": null,
+          "gain": 0.1434,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.769,
+              0.866
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-24",
+          "start": 10.07746,
+          "duration": 0.1161,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.952,
+              0.964
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.029025,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-25",
+          "start": 10.28644,
+          "duration": 0.13932,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.483,
+              0.531
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.03483,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-26",
+          "start": 10.518639,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.2426,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.779,
+              0.906
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-27",
+          "start": 10.959819,
+          "duration": 0.1161,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.946,
+              0.956
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.029025,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-28",
+          "start": 11.400998,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1439,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.754,
+              0.885
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-29",
+          "start": 12.051156,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.246,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.68,
+              0.658
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-30",
+          "start": 12.283356,
+          "duration": 0.1161,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.954,
+              0.965
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.029025,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-31",
+          "start": 12.492336,
+          "duration": 0.13932,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.692,
+              0.588
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.03483,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-32",
+          "start": 12.724535,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.2346,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.69,
+              0.685
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-33",
+          "start": 13.165714,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1452,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.756,
+              0.896
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-34",
+          "start": 13.374694,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1213,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.737,
+              0.835
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-35",
+          "start": 13.606893,
+          "duration": 0.441179,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.936,
+              0.94
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.06966,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-36",
+          "start": 14.048073,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.2476,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.779,
+              0.89
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-37",
+          "start": 14.930431,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1472,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.765,
+              0.885
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-38",
+          "start": 15.37161,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.945,
+              0.937
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-39",
+          "start": 15.58059,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.522,
+              0.661
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-40",
+          "start": 15.812789,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.2428,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.748,
+              0.875
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-41",
+          "start": 16.695147,
+          "duration": 0.18576,
+          "pitch": null,
+          "gain": 0.1412,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.772,
+              0.879
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-42",
+          "start": 17.345306,
+          "duration": 0.13932,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.494,
+              0.552
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.03483,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-43",
+          "start": 17.577506,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.2461,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.745,
+              0.881
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-44",
+          "start": 18.459864,
+          "duration": 0.20898,
+          "pitch": null,
+          "gain": 0.1549,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.757,
+              0.85
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-45",
+          "start": 19.110023,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.24,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.671,
+              0.497
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-46",
+          "start": 19.342222,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.952,
+              0.944
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "drums-suggested-47",
+          "start": 19.783401,
+          "duration": 0.16254,
+          "pitch": null,
+          "gain": 0.2186,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.758,
+              0.896
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "bass",
+      "name": "Estimated bass",
+      "events": [
+        {
+          "id": "bass-suggested-1",
+          "start": 0,
+          "duration": 0.325079,
+          "pitch": 33,
+          "gain": 0.1316,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.028,
+              0.043
+            ],
+            "noise": [
+              0.003,
+              0.003
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-2",
+          "start": 0.487619,
+          "duration": 0.09288,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.268,
+              0.122
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.032508,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-3",
+          "start": 0.580499,
+          "duration": 0.2322,
+          "pitch": 31.1,
+          "gain": 0.1097,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.001,
+              0.001
+            ],
+            "attack": 0.02322,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-4",
+          "start": 0.812698,
+          "duration": 0.348299,
+          "pitch": null,
+          "gain": 0.1187,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.249,
+              0.139
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-5",
+          "start": 1.927256,
+          "duration": 0.278639,
+          "pitch": null,
+          "gain": 0.1135,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.104
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.097524,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-6",
+          "start": 2.205896,
+          "duration": 0.20898,
+          "pitch": 36.1,
+          "gain": 0.1404,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.032
+            ],
+            "noise": [
+              0.002,
+              0.004
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-7",
+          "start": 2.414875,
+          "duration": 0.2322,
+          "pitch": null,
+          "gain": 0.1559,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.012
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.08127,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-8",
+          "start": 2.647075,
+          "duration": 0.394739,
+          "pitch": 38,
+          "gain": 0.1655,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.148
+            ],
+            "noise": [
+              0.002,
+              0.005
+            ],
+            "attack": 0.005,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-9",
+          "start": 3.041814,
+          "duration": 0.510839,
+          "pitch": 30.2,
+          "gain": 0.227,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.002
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-10",
+          "start": 3.552653,
+          "duration": 0.20898,
+          "pitch": 31.2,
+          "gain": 0.1449,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.009,
+              0
+            ],
+            "noise": [
+              0.003,
+              0.003
+            ],
+            "attack": 0.005,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-11",
+          "start": 3.924172,
+          "duration": 0.2322,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.066
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-12",
+          "start": 4.156372,
+          "duration": 0.278639,
+          "pitch": 30.1,
+          "gain": 0.1753,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.005
+            ],
+            "attack": 0.06966,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-13",
+          "start": 4.435011,
+          "duration": 0.25542,
+          "pitch": 31.2,
+          "gain": 0.1745,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.003
+            ],
+            "attack": 0.02322,
+            "release": 0.063855,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-14",
+          "start": 5.22449,
+          "duration": 0.09288,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.041,
+              0.288
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.005,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-15",
+          "start": 5.36381,
+          "duration": 0.09288,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.151,
+              0.415
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.032508,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-16",
+          "start": 5.456689,
+          "duration": 0.2322,
+          "pitch": 43,
+          "gain": 0.1616,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.279,
+              0.075
+            ],
+            "noise": [
+              0.016,
+              0.004
+            ],
+            "attack": 0.06966,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-17",
+          "start": 5.688889,
+          "duration": 0.20898,
+          "pitch": 43.1,
+          "gain": 0.1293,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.259,
+              0.191
+            ],
+            "noise": [
+              0.011,
+              0.006
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-18",
+          "start": 5.897868,
+          "duration": 0.25542,
+          "pitch": 43.1,
+          "gain": 0.2373,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.362,
+              0.221
+            ],
+            "noise": [
+              0.015,
+              0.005
+            ],
+            "attack": 0.06966,
+            "release": 0.063855,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-19",
+          "start": 6.153288,
+          "duration": 0.394739,
+          "pitch": null,
+          "gain": 0.1919,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.178,
+              0.557
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-20",
+          "start": 6.757007,
+          "duration": 0.20898,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.096,
+              0.032
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-21",
+          "start": 6.965986,
+          "duration": 0.301859,
+          "pitch": null,
+          "gain": 0.1524,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.354,
+              0.289
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.06966,
+            "release": 0.075465,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-22",
+          "start": 7.267846,
+          "duration": 0.09288,
+          "pitch": 35.6,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.129,
+              0.091
+            ],
+            "noise": [
+              0.004,
+              0.007
+            ],
+            "attack": 0.005,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-23",
+          "start": 7.453605,
+          "duration": 0.1161,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.077,
+              0.008
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.029025,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-24",
+          "start": 7.592925,
+          "duration": 0.06966,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.018,
+              0.105
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.017415,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-25",
+          "start": 7.662585,
+          "duration": 0.25542,
+          "pitch": 31.1,
+          "gain": 0.153,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.001
+            ],
+            "attack": 0.06966,
+            "release": 0.063855,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-26",
+          "start": 7.918005,
+          "duration": 0.278639,
+          "pitch": null,
+          "gain": 0.1717,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.327,
+              0.295
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-27",
+          "start": 9.009342,
+          "duration": 0.278639,
+          "pitch": null,
+          "gain": 0.2051,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.045,
+              0.164
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.097524,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-28",
+          "start": 9.287982,
+          "duration": 0.18576,
+          "pitch": 36.1,
+          "gain": 0.2209,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.12,
+              0.126
+            ],
+            "noise": [
+              0.004,
+              0.006
+            ],
+            "attack": 0.005,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-29",
+          "start": 9.473741,
+          "duration": 0.20898,
+          "pitch": 37,
+          "gain": 0.1859,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.119,
+              0.113
+            ],
+            "noise": [
+              0.004,
+              0.007
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-30",
+          "start": 9.682721,
+          "duration": 0.464399,
+          "pitch": 38,
+          "gain": 0.1809,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.172,
+              0.117
+            ],
+            "noise": [
+              0.005,
+              0.005
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-31",
+          "start": 10.14712,
+          "duration": 0.441179,
+          "pitch": 30.2,
+          "gain": 0.199,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.002
+            ],
+            "attack": 0.005,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-32",
+          "start": 10.588299,
+          "duration": 0.278639,
+          "pitch": 31.1,
+          "gain": 0.1771,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.048
+            ],
+            "noise": [
+              0.002,
+              0.005
+            ],
+            "attack": 0.005,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-33",
+          "start": 10.913379,
+          "duration": 0.13932,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.256,
+              0.2
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.04644,
+            "release": 0.03483,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-34",
+          "start": 11.122358,
+          "duration": 0.06966,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.202,
+              0.201
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.024381,
+            "release": 0.017415,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-35",
+          "start": 11.192018,
+          "duration": 0.278639,
+          "pitch": 30.1,
+          "gain": 0.1492,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.002
+            ],
+            "attack": 0.097524,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-36",
+          "start": 11.470658,
+          "duration": 0.278639,
+          "pitch": 31.1,
+          "gain": 0.1636,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.003,
+              0.003
+            ],
+            "attack": 0.02322,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-37",
+          "start": 12.074376,
+          "duration": 0.510839,
+          "pitch": 34,
+          "gain": 0.1388,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.091,
+              0.051
+            ],
+            "noise": [
+              0.005,
+              0.003
+            ],
+            "attack": 0.13932,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-38",
+          "start": 12.585215,
+          "duration": 0.20898,
+          "pitch": 38,
+          "gain": 0.1618,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.004,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.004
+            ],
+            "attack": 0.04644,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-39",
+          "start": 12.794195,
+          "duration": 0.25542,
+          "pitch": 40,
+          "gain": 0.223,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.07,
+              0.185
+            ],
+            "noise": [
+              0.004,
+              0.005
+            ],
+            "attack": 0.089397,
+            "release": 0.063855,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-40",
+          "start": 13.049615,
+          "duration": 0.18576,
+          "pitch": 43,
+          "gain": 0.1678,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.089,
+              0.161
+            ],
+            "noise": [
+              0.003,
+              0.013
+            ],
+            "attack": 0.005,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-41",
+          "start": 13.235374,
+          "duration": 0.1161,
+          "pitch": 45,
+          "gain": 0.1861,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.244,
+              0.281
+            ],
+            "noise": [
+              0.009,
+              0.008
+            ],
+            "attack": 0.005,
+            "release": 0.029025,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-42",
+          "start": 13.351474,
+          "duration": 0.13932,
+          "pitch": 43.1,
+          "gain": 0.1449,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.225,
+              0.159
+            ],
+            "noise": [
+              0.006,
+              0.006
+            ],
+            "attack": 0.048762,
+            "release": 0.03483,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-43",
+          "start": 13.490794,
+          "duration": 0.2322,
+          "pitch": 40.1,
+          "gain": 0.1857,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.127,
+              0.169
+            ],
+            "noise": [
+              0.003,
+              0.007
+            ],
+            "attack": 0.08127,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-44",
+          "start": 13.722993,
+          "duration": 0.371519,
+          "pitch": 43,
+          "gain": 0.1943,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.137,
+              0.178
+            ],
+            "noise": [
+              0.004,
+              0.004
+            ],
+            "attack": 0.005,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-45",
+          "start": 14.094512,
+          "duration": 0.371519,
+          "pitch": 33,
+          "gain": 0.1203,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.209,
+              0.212
+            ],
+            "noise": [
+              0.006,
+              0.009
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-46",
+          "start": 14.512472,
+          "duration": 0.09288,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.196,
+              0.166
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.005,
+            "release": 0.02322,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-47",
+          "start": 14.675011,
+          "duration": 0.278639,
+          "pitch": 31,
+          "gain": 0.1268,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.003,
+              0.001
+            ],
+            "attack": 0.06966,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-48",
+          "start": 14.953651,
+          "duration": 0.301859,
+          "pitch": null,
+          "gain": 0.1555,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.275,
+              0.138
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.075465,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-49",
+          "start": 16.021769,
+          "duration": 0.278639,
+          "pitch": 33.1,
+          "gain": 0.1306,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.337,
+              0.221
+            ],
+            "noise": [
+              0.016,
+              0.009
+            ],
+            "attack": 0.06966,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-50",
+          "start": 16.300408,
+          "duration": 0.20898,
+          "pitch": null,
+          "gain": 0.1734,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.159,
+              0.337
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-51",
+          "start": 16.509388,
+          "duration": 0.2322,
+          "pitch": 37.1,
+          "gain": 0.2104,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.127,
+              0.273
+            ],
+            "noise": [
+              0.004,
+              0.014
+            ],
+            "attack": 0.02322,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-52",
+          "start": 16.741587,
+          "duration": 0.417959,
+          "pitch": 38.1,
+          "gain": 0.17,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.171,
+              0.129
+            ],
+            "noise": [
+              0.005,
+              0.004
+            ],
+            "attack": 0.005,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-53",
+          "start": 17.159546,
+          "duration": 0.487619,
+          "pitch": 30.2,
+          "gain": 0.1934,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.042
+            ],
+            "noise": [
+              0.002,
+              0.004
+            ],
+            "attack": 0.02322,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-54",
+          "start": 17.647166,
+          "duration": 0.301859,
+          "pitch": 31.1,
+          "gain": 0.2055,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.128
+            ],
+            "noise": [
+              0.002,
+              0.004
+            ],
+            "attack": 0.005,
+            "release": 0.075465,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-55",
+          "start": 17.995465,
+          "duration": 0.2322,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.164,
+              0.152
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.08127,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-56",
+          "start": 18.227664,
+          "duration": 0.278639,
+          "pitch": 30,
+          "gain": 0.1604,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0
+            ],
+            "noise": [
+              0.002,
+              0.001
+            ],
+            "attack": 0.06966,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-57",
+          "start": 18.506304,
+          "duration": 0.301859,
+          "pitch": null,
+          "gain": 0.1604,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0,
+              0.282
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.005,
+            "release": 0.075465,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-58",
+          "start": 19.342222,
+          "duration": 0.2322,
+          "pitch": null,
+          "gain": 0.08,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.003,
+              0.067
+            ],
+            "noise": [
+              1,
+              1
+            ],
+            "attack": 0.02322,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "bass-suggested-59",
+          "start": 19.574422,
+          "duration": 0.425578,
+          "pitch": 43.1,
+          "gain": 0.1745,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.087,
+              0.178
+            ],
+            "noise": [
+              0.005,
+              0.008
+            ],
+            "attack": 0.06966,
+            "release": 0.08,
+            "decay": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Estimated other",
+      "events": []
+    },
+    {
+      "id": "vocals",
+      "name": "Estimated vocals",
+      "events": []
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "version": "1.0",
+  "renderer": "harmonic-noise-v1",
+  "title": "Mihai Sorohan · solo trumpet 06",
+  "duration": 5.333379,
+  "seed": 42,
+  "provenance": {
+    "kind": "automatic suggestions; not listening-reviewed",
+    "sourceName": "trumpet",
+    "sourceHash": "4eb24d7b33665c37c210079312203fa4523190b475443e31e1cac54d7109d195",
+    "analyzer": "spectral-gesture-v3.1",
+    "sampleRate": 22050,
+    "frameSize": 2048,
+    "hopSize": 512,
+    "pitchEstimator": {
+      "method": "full-rate YIN-style difference with raw-minimum interpolation",
+      "threshold": 0.12,
+      "midiRange": [
+        24,
+        108
+      ],
+      "boundaryAllowanceSemitones": 0.15
+    },
+    "segmentation": {
+      "method": "stable pitch change against note anchor",
+      "pitchChangeSemitones": 0.65,
+      "stableFrames": 3,
+      "stableSpreadSemitones": 0.45,
+      "minimumSplitSeconds": 0.065,
+      "articulationWindowSamples": 512,
+      "articulationDipRatio": 0.8,
+      "articulationRiseRatio": 1.4
+    },
+    "note": "Applied draft from recorded audio. Automatic suggestions require listening corrections; instrument labels describe estimated source groups.",
+    "manualEdits": [],
+    "source": {
+      "id": "trumpet",
+      "title": "solo trumpet 06",
+      "artist": "Mihai Sorohan",
+      "reference": "https://freesound.org/s/77711/",
+      "audio": "https://librosa.org/data/audio/sorohanro_-_solo-trumpet-06.ogg",
+      "metadata": "https://librosa.org/data/audio/sorohanro_-_solo-trumpet-06.toml",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "8374466fd3951d24509da6e799b132a0db0bdeda69d99c69d989a6888d3d727d",
+      "excerptStart": 0,
+      "excerptEnd": 5.333379,
+      "contrast": "Exposed monophonic brass phrase with identifiable entrances and changing harmonic content."
+    }
+  },
+  "lanes": [
+    {
+      "id": "analysis",
+      "name": "Mixture · suggested gestures",
+      "events": [
+        {
+          "id": "suggested-1",
+          "start": 0,
+          "duration": 0.18576,
+          "pitch": 75,
+          "gain": 0.4597,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.606,
+              0.559
+            ],
+            "noise": [
+              0.011,
+              0.024
+            ],
+            "attack": 0.005,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-2",
+          "start": 0.18576,
+          "duration": 0.18576,
+          "pitch": 73.9,
+          "gain": 0.5335,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.609,
+              0.552
+            ],
+            "noise": [
+              0.025,
+              0.013
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-3",
+          "start": 0.371519,
+          "duration": 0.16254,
+          "pitch": 72,
+          "gain": 0.3202,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.534,
+              0.515
+            ],
+            "noise": [
+              0.005,
+              0.023
+            ],
+            "attack": 0.02322,
+            "release": 0.040635,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-4",
+          "start": 0.534059,
+          "duration": 0.18576,
+          "pitch": 69.9,
+          "gain": 0.523,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.626,
+              0.549
+            ],
+            "noise": [
+              0.026,
+              0.013
+            ],
+            "attack": 0.02322,
+            "release": 0.04644,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-5",
+          "start": 0.719819,
+          "duration": 0.13932,
+          "pitch": 68,
+          "gain": 0.2939,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.519,
+              0.528
+            ],
+            "noise": [
+              0.007,
+              0.019
+            ],
+            "attack": 0.048762,
+            "release": 0.03483,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-6",
+          "start": 0.859138,
+          "duration": 0.2322,
+          "pitch": 70,
+          "gain": 0.5227,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.617,
+              0.586
+            ],
+            "noise": [
+              0.045,
+              0.073
+            ],
+            "attack": 0.04644,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-7",
+          "start": 1.091338,
+          "duration": 0.2322,
+          "pitch": 72,
+          "gain": 0.3798,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.566,
+              0.507
+            ],
+            "noise": [
+              0.005,
+              0.009
+            ],
+            "attack": 0.005,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-8",
+          "start": 1.323537,
+          "duration": 0.1161,
+          "pitch": 70.6,
+          "gain": 0.3433,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.599,
+              0.599
+            ],
+            "noise": [
+              0.072,
+              0.039
+            ],
+            "attack": 0.02322,
+            "release": 0.029025,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-9",
+          "start": 1.439637,
+          "duration": 0.20898,
+          "pitch": 67.9,
+          "gain": 0.2239,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.534,
+              0.493
+            ],
+            "noise": [
+              0.017,
+              0.018
+            ],
+            "attack": 0.005,
+            "release": 0.052245,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-10",
+          "start": 1.648617,
+          "duration": 0.2322,
+          "pitch": 65,
+          "gain": 0.2068,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.497,
+              0.467
+            ],
+            "noise": [
+              0.004,
+              0.007
+            ],
+            "attack": 0.005,
+            "release": 0.05805,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-11",
+          "start": 1.927256,
+          "duration": 0.348299,
+          "pitch": 69.9,
+          "gain": 0.4835,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.608,
+              0.561
+            ],
+            "noise": [
+              0.04,
+              0.03
+            ],
+            "attack": 0.09288,
+            "release": 0.08,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-12",
+          "start": 2.275556,
+          "duration": 0.278639,
+          "pitch": 67.9,
+          "gain": 0.412,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.543,
+              0.558
+            ],
+            "noise": [
+              0.027,
+              0.029
+            ],
+            "attack": 0.09288,
+            "release": 0.06966,
+            "decay": 0
+          }
+        },
+        {
+          "id": "suggested-13",
+          "start": 2.554195,
+          "duration": 0.487619,
+          "pitch": 65,
+          "gain": 0.3288,
+          "label": "Unreviewed audio-analysis suggestion",
+          "timbre": {
+            "brightness": [
+              0.479,
+              0.471
+            ],
+            "noise": [
+              0.005,
+              0.005
+            ],
+            "attack": 0.005,
+            "release": 0.08,
+            "decay": 0
+          }
+        }
+      ]
+    }
+  ]
+}

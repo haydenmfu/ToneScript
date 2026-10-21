@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ToneScript · Play the character</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+  <header><a class="wordmark" href="/">ToneScript<span>◒</span></a><div class="eyebrow">A SCORE FOR HOW MUSIC SOUNDS</div><span class="pill">Research studio / v0.1</span></header>
+  <main>
+    <section class="intro"><div><div class="eyebrow">LISTEN · DESCRIBE · RESHAPE</div><h1>Play the character.</h1><p>Follow a sound’s brightness, grain, and gesture. Change the score. Hear what changes.</p></div><div class="project"><label for="example">Open a study</label><select id="example"></select><small id="provenance"></small></div></section>
+    <section class="toolbar" aria-label="Project tools">
+      <label class="file">Open score<input id="open-score" type="file" accept=".json,application/json"></label>
+      <label class="file">Load reference audio<input id="open-audio" type="file" accept="audio/*"></label>
+      <button id="analyze" disabled>Analyze reference</button>
+      <label class="file">Import audio layers<input id="open-stems" type="file" accept="audio/*" multiple></label>
+      <button id="save">Save score</button><button id="svg">Export SVG</button><button id="png">Export PNG</button><button id="wav">Export score audio</button><button id="undo" disabled>Undo</button><button id="reset">Reset study</button>
+    </section>
+    <section class="reference-panel" aria-label="Reference and analysis"><div><span class="eyebrow">REFERENCE RECORDING</span><p id="reference-info">Load a short recording to compare with your score.</p><div id="source-links"></div></div><div class="reference-actions"><button id="load-example-audio" hidden>Load this study’s reference</button><label>Excerpt begins in file (seconds)<input id="reference-start" type="number" min="0" step="0.01" value="0"></label><label>Layer separation<select id="separation-method"><option value="hpss">Harmonic / percussive layers</option><option value="demucs">Demucs source estimates</option></select></label><button id="separate" disabled>Separate & suggest score</button><button id="cancel-analysis">Cancel analysis</button></div><small>Analysis creates suggestions to review by listening. Separation runs through the local server; it may take several minutes. Imported recordings are not included in score exports.</small></section>
+    <section class="studio">
+      <div class="score-panel"><div class="panel-head"><div><span class="eyebrow">THE TIMBRE SCORE</span><h2 id="score-title"></h2></div><span class="badge">Click a gesture to edit</span></div>
+        <div class="transport"><button id="play" class="primary">▶ Play</button><button id="stop">Stop</button><select id="mode" aria-label="Playback version"><option value="score">Score reconstruction</option><option value="neutral">Neutral-timbre baseline</option><option value="original">Original reference</option><option value="estimated">Estimated source audio</option></select><label>Listen to <select id="solo"><option value="">All layers</option></select></label><label><input id="level-match" type="checkbox" checked> Match comparison level</label><output id="clock">0.00 / 8.00s</output></div>
+        <div class="view-controls"><label>Score scale <select id="zoom"><option value="1">Fit</option><option value="1.5">150%</option><option value="2">200%</option><option value="3">300%</option></select></label><label>Choose gesture <select id="gesture"></select></label><label>Score length (seconds)<input id="score-duration" type="number" min="0.01" max="300" step="0.01"></label></div>
+        <input id="seek" type="range" min="0" max="8" step="0.01" value="0" aria-label="Playback position">
+        <div class="score-scroll"><div id="score"></div><div id="playhead" aria-hidden="true"></div></div>
+        <p class="caption">Blue → gold = darker → brighter. Dots = noise-like character. Slopes = entrance and release. Empty space = silence.</p>
+      </div>
+      <aside><div class="eyebrow">GESTURE INSPECTOR</div><h2 id="event-title">Choose a gesture</h2><p class="hint">These describe sound qualities, not instrument names. Your changes control the reconstruction.</p><div class="gesture-details"><label>Gesture name<input id="gesture-name" maxlength="100"></label><label>Listening note<textarea id="gesture-note" rows="2" maxlength="1000"></textarea></label><label class="check"><input id="reviewed" type="checkbox"> Reviewed by listening</label><small id="review-count"></small></div><form id="inspector"></form><button id="duplicate" class="wide">Duplicate selected gesture</button><button id="add" class="wide">+ Add gesture at playhead</button><button id="add-lane" class="wide">+ Add sound layer</button><button id="delete" class="wide danger" disabled>Delete selected gesture</button></aside>
+    </section>
+    <section class="notes"><article><span class="eyebrow">01 / READ</span><h3>A language for sound.</h3><p>Each row follows one layer. Color and texture evolve through a gesture; the shape describes how it enters and leaves. The horizontal axis is time.</p></article><article><span class="eyebrow">02 / INTERPRET</span><h3>One score, one interpretation.</h3><p>This renderer combines harmonics and shaped noise. It approximates gestures rather than cloning instruments. Pitch, gain, and decay are stored separately and shown in the inspector.</p></article><article><span class="eyebrow">03 / COMPARE</span><h3>Listen for what survives.</h3><p>Switch between a neutral tone and the timbre score. Load your reference to compare. Synthetic studies are software fixtures, not the two assignment transcriptions.</p></article></section>
+    <p id="status" role="status" aria-live="polite">Ready. Audio stays on your computer.</p>
+  </main><footer>ToneScript · An experiment in notating timbre <span>Score version 1.0 / harmonic-noise-v1</span></footer>
+  <script type="module" src="/src/app.mjs"></script>
+</body></html>

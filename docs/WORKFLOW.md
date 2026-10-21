@@ -4,7 +4,7 @@
 
 Build an editable, playable timbre score that is useful for listening, communicating musical gestures, and experimenting with sound. Software sophistication supports that purpose; it does not replace the two applied scores or musical reflection.
 
-The project has 16 working-calendar days in the initial plan. Confirm the actual submission date before assigning calendar dates. Preserve the final two days for evaluation, export, and submission. Milestone gates are evidence requirements, not claims that all work will fit the estimate.
+The submission deadline is October 25, 2026. The user requests continuous rapid implementation and explicitly does not want work stretched to that date. The original 16-day windows below are an initial ordering estimate, not waiting periods or a prescribed pace. Complete milestones as soon as their evidence gates pass, leaving as much time as possible for feedback and submission. Milestone gates are evidence requirements, not claims that all work will fit the estimate.
 
 ## Incremental Git workflow
 
