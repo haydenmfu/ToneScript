@@ -52,33 +52,61 @@
 <linearGradient id="g45"><stop stop-color="hsl(49,65%,63%)"/><stop offset="1" stop-color="hsl(50,65%,63%)"/></linearGradient>
 <linearGradient id="g46"><stop stop-color="hsl(85,65%,57%)"/><stop offset="1" stop-color="hsl(59,65%,61%)"/></linearGradient>
 <linearGradient id="g47"><stop stop-color="hsl(220,65%,31%)"/><stop offset="1" stop-color="hsl(217,65%,32%)"/></linearGradient>
-<linearGradient id="g48"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(183,65%,38%)"/></linearGradient>
-<linearGradient id="g49"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
-<linearGradient id="g50"><stop stop-color="hsl(220,65%,31%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
-<linearGradient id="g51"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(213,65%,32%)"/></linearGradient>
-<linearGradient id="g52"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
-<linearGradient id="g53"><stop stop-color="hsl(217,65%,31%)"/><stop offset="1" stop-color="hsl(172,65%,40%)"/></linearGradient>
-<linearGradient id="g54"><stop stop-color="hsl(197,65%,35%)"/><stop offset="1" stop-color="hsl(183,65%,38%)"/></linearGradient>
-<linearGradient id="g55"><stop stop-color="hsl(174,65%,40%)"/><stop offset="1" stop-color="hsl(152,65%,44%)"/></linearGradient>
-<linearGradient id="g56"><stop stop-color="hsl(207,65%,33%)"/><stop offset="1" stop-color="hsl(219,65%,31%)"/></linearGradient>
-<linearGradient id="g57"><stop stop-color="hsl(162,65%,42%)"/><stop offset="1" stop-color="hsl(201,65%,35%)"/></linearGradient>
-<linearGradient id="g58"><stop stop-color="hsl(211,65%,33%)"/><stop offset="1" stop-color="hsl(224,65%,30%)"/></linearGradient>
-<linearGradient id="g59"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(170,65%,40%)"/></linearGradient>
-<linearGradient id="g60"><stop stop-color="hsl(205,65%,34%)"/><stop offset="1" stop-color="hsl(221,65%,31%)"/></linearGradient>
-<linearGradient id="g61"><stop stop-color="hsl(224,65%,30%)"/><stop offset="1" stop-color="hsl(216,65%,32%)"/></linearGradient>
-<linearGradient id="g62"><stop stop-color="hsl(178,65%,39%)"/><stop offset="1" stop-color="hsl(188,65%,37%)"/></linearGradient>
-<linearGradient id="g63"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
-<linearGradient id="g64"><stop stop-color="hsl(216,65%,32%)"/><stop offset="1" stop-color="hsl(191,65%,36%)"/></linearGradient>
-<linearGradient id="g65"><stop stop-color="hsl(200,65%,35%)"/><stop offset="1" stop-color="hsl(186,65%,37%)"/></linearGradient>
-<linearGradient id="g66"><stop stop-color="hsl(189,65%,37%)"/><stop offset="1" stop-color="hsl(194,65%,36%)"/></linearGradient>
-<linearGradient id="g67"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(189,65%,37%)"/></linearGradient>
-<linearGradient id="g68"><stop stop-color="hsl(185,65%,38%)"/><stop offset="1" stop-color="hsl(208,65%,33%)"/></linearGradient>
-<linearGradient id="g69"><stop stop-color="hsl(215,65%,32%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
-<linearGradient id="g70"><stop stop-color="hsl(201,65%,35%)"/><stop offset="1" stop-color="hsl(197,65%,35%)"/></linearGradient>
-<linearGradient id="g71"><stop stop-color="hsl(195,65%,36%)"/><stop offset="1" stop-color="hsl(197,65%,35%)"/></linearGradient>
-<linearGradient id="g72"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
-<linearGradient id="g73"><stop stop-color="hsl(224,65%,30%)"/><stop offset="1" stop-color="hsl(213,65%,32%)"/></linearGradient>
-<linearGradient id="g74"><stop stop-color="hsl(209,65%,33%)"/><stop offset="1" stop-color="hsl(192,65%,36%)"/></linearGradient>
+<linearGradient id="g48"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g49"><stop stop-color="hsl(180,65%,39%)"/><stop offset="1" stop-color="hsl(199,65%,35%)"/></linearGradient>
+<linearGradient id="g50"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(206,65%,34%)"/></linearGradient>
+<linearGradient id="g51"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(219,65%,31%)"/></linearGradient>
+<linearGradient id="g52"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(223,65%,30%)"/></linearGradient>
+<linearGradient id="g53"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(201,65%,35%)"/></linearGradient>
+<linearGradient id="g54"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g55"><stop stop-color="hsl(223,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g56"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(213,65%,32%)"/></linearGradient>
+<linearGradient id="g57"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g58"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g59"><stop stop-color="hsl(217,65%,31%)"/><stop offset="1" stop-color="hsl(172,65%,40%)"/></linearGradient>
+<linearGradient id="g60"><stop stop-color="hsl(197,65%,35%)"/><stop offset="1" stop-color="hsl(148,65%,45%)"/></linearGradient>
+<linearGradient id="g61"><stop stop-color="hsl(199,65%,35%)"/><stop offset="1" stop-color="hsl(183,65%,38%)"/></linearGradient>
+<linearGradient id="g62"><stop stop-color="hsl(174,65%,40%)"/><stop offset="1" stop-color="hsl(152,65%,44%)"/></linearGradient>
+<linearGradient id="g63"><stop stop-color="hsl(207,65%,33%)"/><stop offset="1" stop-color="hsl(219,65%,31%)"/></linearGradient>
+<linearGradient id="g64"><stop stop-color="hsl(160,65%,42%)"/><stop offset="1" stop-color="hsl(172,65%,40%)"/></linearGradient>
+<linearGradient id="g65"><stop stop-color="hsl(201,65%,35%)"/><stop offset="1" stop-color="hsl(208,65%,33%)"/></linearGradient>
+<linearGradient id="g66"><stop stop-color="hsl(211,65%,33%)"/><stop offset="1" stop-color="hsl(224,65%,30%)"/></linearGradient>
+<linearGradient id="g67"><stop stop-color="hsl(222,65%,31%)"/><stop offset="1" stop-color="hsl(206,65%,34%)"/></linearGradient>
+<linearGradient id="g68"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(193,65%,36%)"/></linearGradient>
+<linearGradient id="g69"><stop stop-color="hsl(166,65%,41%)"/><stop offset="1" stop-color="hsl(170,65%,40%)"/></linearGradient>
+<linearGradient id="g70"><stop stop-color="hsl(217,65%,32%)"/><stop offset="1" stop-color="hsl(195,65%,36%)"/></linearGradient>
+<linearGradient id="g71"><stop stop-color="hsl(203,65%,34%)"/><stop offset="1" stop-color="hsl(194,65%,36%)"/></linearGradient>
+<linearGradient id="g72"><stop stop-color="hsl(208,65%,33%)"/><stop offset="1" stop-color="hsl(193,65%,36%)"/></linearGradient>
+<linearGradient id="g73"><stop stop-color="hsl(197,65%,35%)"/><stop offset="1" stop-color="hsl(203,65%,34%)"/></linearGradient>
+<linearGradient id="g74"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g75"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(216,65%,32%)"/></linearGradient>
+<linearGradient id="g76"><stop stop-color="hsl(178,65%,39%)"/><stop offset="1" stop-color="hsl(188,65%,37%)"/></linearGradient>
+<linearGradient id="g77"><stop stop-color="hsl(188,65%,37%)"/><stop offset="1" stop-color="hsl(188,65%,37%)"/></linearGradient>
+<linearGradient id="g78"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g79"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g80"><stop stop-color="hsl(208,65%,33%)"/><stop offset="1" stop-color="hsl(216,65%,32%)"/></linearGradient>
+<linearGradient id="g81"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(185,65%,38%)"/></linearGradient>
+<linearGradient id="g82"><stop stop-color="hsl(191,65%,36%)"/><stop offset="1" stop-color="hsl(201,65%,35%)"/></linearGradient>
+<linearGradient id="g83"><stop stop-color="hsl(210,65%,33%)"/><stop offset="1" stop-color="hsl(194,65%,36%)"/></linearGradient>
+<linearGradient id="g84"><stop stop-color="hsl(177,65%,39%)"/><stop offset="1" stop-color="hsl(173,65%,40%)"/></linearGradient>
+<linearGradient id="g85"><stop stop-color="hsl(183,65%,38%)"/><stop offset="1" stop-color="hsl(196,65%,36%)"/></linearGradient>
+<linearGradient id="g86"><stop stop-color="hsl(202,65%,34%)"/><stop offset="1" stop-color="hsl(194,65%,36%)"/></linearGradient>
+<linearGradient id="g87"><stop stop-color="hsl(200,65%,35%)"/><stop offset="1" stop-color="hsl(189,65%,37%)"/></linearGradient>
+<linearGradient id="g88"><stop stop-color="hsl(192,65%,36%)"/><stop offset="1" stop-color="hsl(186,65%,37%)"/></linearGradient>
+<linearGradient id="g89"><stop stop-color="hsl(189,65%,37%)"/><stop offset="1" stop-color="hsl(194,65%,36%)"/></linearGradient>
+<linearGradient id="g90"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g91"><stop stop-color="hsl(174,65%,40%)"/><stop offset="1" stop-color="hsl(201,65%,35%)"/></linearGradient>
+<linearGradient id="g92"><stop stop-color="hsl(163,65%,42%)"/><stop offset="1" stop-color="hsl(185,65%,38%)"/></linearGradient>
+<linearGradient id="g93"><stop stop-color="hsl(200,65%,35%)"/><stop offset="1" stop-color="hsl(163,65%,42%)"/></linearGradient>
+<linearGradient id="g94"><stop stop-color="hsl(202,65%,34%)"/><stop offset="1" stop-color="hsl(174,65%,40%)"/></linearGradient>
+<linearGradient id="g95"><stop stop-color="hsl(193,65%,36%)"/><stop offset="1" stop-color="hsl(201,65%,35%)"/></linearGradient>
+<linearGradient id="g96"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(217,65%,31%)"/></linearGradient>
+<linearGradient id="g97"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(201,65%,34%)"/></linearGradient>
+<linearGradient id="g98"><stop stop-color="hsl(195,65%,36%)"/><stop offset="1" stop-color="hsl(197,65%,35%)"/></linearGradient>
+<linearGradient id="g99"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(225,65%,30%)"/></linearGradient>
+<linearGradient id="g100"><stop stop-color="hsl(225,65%,30%)"/><stop offset="1" stop-color="hsl(173,65%,40%)"/></linearGradient>
+<linearGradient id="g101"><stop stop-color="hsl(224,65%,30%)"/><stop offset="1" stop-color="hsl(213,65%,32%)"/></linearGradient>
+<linearGradient id="g102"><stop stop-color="hsl(209,65%,33%)"/><stop offset="1" stop-color="hsl(192,65%,36%)"/></linearGradient>
 </defs>
 <path d="M190 110V650" stroke="#dcdedb"/><text class="tick" x="190" y="100" text-anchor="middle">0s</text>
 <path d="M433.75 110V650" stroke="#dcdedb"/><text class="tick" x="433.75" y="100" text-anchor="middle">5s</text>
@@ -567,7 +595,7 @@
 </g>
 </g>
 <text class="name" style="font-size:14px" x="25" y="280" textLength="113.67999999999999" lengthAdjust="spacingAndGlyphs">Estimated bass</text>
-<text class="small" x="25" y="302">28 gestures</text>
+<text class="small" x="25" y="302">56 gestures</text>
 <path d="M190 331H1165" stroke="#dcdedb"/>
 <g data-event="bass-suggested-1"  aria-label="Estimated bass at 0s; brightness 0.028 to 0.043; noise 0.003 to 0.003">
 <title>Unreviewed audio-analysis suggestion · 0s–0.325s · pitch 33 · gain 0.1316 · decay 0</title>
@@ -575,210 +603,398 @@
 <clipPath id="texture47"><path d="M190 325L191.131975 268H201.94760125L205.84760125 325Z"/></clipPath><g clip-path="url(#texture47)">
 </g>
 </g>
-<g data-event="bass-suggested-2"  aria-label="Estimated bass at 0.487619s; brightness 0 to 0.226; noise 0.002 to 0.008">
-<title>Unreviewed audio-analysis suggestion · 0.487619s–1.161s · pitch 31.1 · gain 0.1187 · decay 0</title>
-<path d="M213.77142625 325L221.69525124999998 268H242.6986525L246.59865250000001 325Z" fill="url(#g48)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture48"><path d="M213.77142625 325L221.69525124999998 268H242.6986525L246.59865250000001 325Z"/></clipPath><g clip-path="url(#texture48)">
+<g data-event="bass-suggested-2"  aria-label="Estimated bass at 0.487619s; brightness 0 to 0; noise 0.003 to 0.003">
+<title>Unreviewed audio-analysis suggestion · 0.487619s–0.859s · pitch 31.1 · gain 0.1187 · decay 0</title>
+<path d="M213.77142625 325L220.11048625 268H227.9829775L231.8829775 325Z" fill="url(#g48)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture48"><path d="M213.77142625 325L220.11048625 268H227.9829775L231.8829775 325Z"/></clipPath><g clip-path="url(#texture48)">
 </g>
 </g>
-<g data-event="bass-suggested-3"  aria-label="Estimated bass at 1.927256s; brightness 0 to 0; noise 0.002 to 0.002">
-<title>Unreviewed audio-analysis suggestion · 1.927256s–3.437s · pitch 36.1 · gain 0.227 · decay 0</title>
-<path d="M283.95373 325L309.7061125 268H353.63195875L357.53195875 325Z" fill="url(#g49)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture49"><path d="M283.95373 325L309.7061125 268H353.63195875L357.53195875 325Z"/></clipPath><g clip-path="url(#texture49)">
-</g>
-<text class="small" x="285.95373" y="345">B 0→0</text>
-<text class="small" x="285.95373" y="361">N 0→0</text>
-</g>
-<g data-event="bass-suggested-4"  aria-label="Estimated bass at 3.436553s; brightness 0.029 to 0; noise 0.004 to 0.002">
-<title>Unreviewed audio-analysis suggestion · 3.436553s–3.762s · pitch 31.1 · gain 0.1802 · decay 0</title>
-<path d="M357.53195875 325L357.77570875 268H369.47956L373.37956 325Z" fill="url(#g50)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture50"><path d="M357.53195875 325L357.77570875 268H369.47956L373.37956 325Z"/></clipPath><g clip-path="url(#texture50)">
+<g data-event="bass-suggested-3"  aria-label="Estimated bass at 0.859138s; brightness 0.243 to 0.139; noise 0.01 to 0.006">
+<title>Unreviewed audio-analysis suggestion · 0.859138s–1.161s · pitch 33.1 · gain 0.1146 · decay 0</title>
+<path d="M231.8829775 325L232.12672750000002 268H242.919685L246.59860375 325Z" fill="url(#g49)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture49"><path d="M231.8829775 325L232.12672750000002 268H242.919685L246.59860375 325Z"/></clipPath><g clip-path="url(#texture49)">
 </g>
 </g>
-<g data-event="bass-suggested-5"  aria-label="Estimated bass at 3.924172s; brightness 0 to 0.066; noise 1 to 1">
+<g data-event="bass-suggested-4"  aria-label="Estimated bass at 1.927256s; brightness 0 to 0.104; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 1.927256s–2.229s · pitch unpitched · gain 0.1135 · decay 0</title>
+<path d="M283.95373 325L289.10421625000004 268H294.99043750000004L298.66935625 325Z" fill="url(#g50)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture50"><path d="M283.95373 325L289.10421625000004 268H294.99043750000004L298.66935625 325Z"/></clipPath><g clip-path="url(#texture50)">
+<circle cx="291.311543125" cy="313.6" r="1.5" fill="#fff"/>
+<circle cx="291.311543125" cy="302.2" r="1.5" fill="#fff"/>
+<circle cx="291.311543125" cy="290.8" r="1.5" fill="#fff"/>
+<circle cx="291.311543125" cy="279.4" r="1.5" fill="#fff"/>
+</g>
+</g>
+<g data-event="bass-suggested-5"  aria-label="Estimated bass at 2.229116s; brightness 0 to 0.032; noise 0.002 to 0.004">
+<title>Unreviewed audio-analysis suggestion · 2.229116s–2.438s · pitch 36.1 · gain 0.1404 · decay 0</title>
+<path d="M298.669405 325L298.91315499999996 268H306.31023625L308.85717999999997 325Z" fill="url(#g51)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture51"><path d="M298.669405 325L298.91315499999996 268H306.31023625L308.85717999999997 325Z"/></clipPath><g clip-path="url(#texture51)">
+</g>
+</g>
+<g data-event="bass-suggested-6"  aria-label="Estimated bass at 2.438095s; brightness 0 to 0.012; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 2.438095s–2.647s · pitch unpitched · gain 0.1559 · decay 0</title>
+<path d="M308.85713125 325L312.4228525 268H316.49796249999997L319.04490625 325Z" fill="url(#g52)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture52"><path d="M308.85713125 325L312.4228525 268H316.49796249999997L319.04490625 325Z"/></clipPath><g clip-path="url(#texture52)">
+<circle cx="313.95101875" cy="313.6" r="1.5" fill="#fff"/>
+<circle cx="313.95101875" cy="302.2" r="1.5" fill="#fff"/>
+<circle cx="313.95101875" cy="290.8" r="1.5" fill="#fff"/>
+<circle cx="313.95101875" cy="279.4" r="1.5" fill="#fff"/>
+</g>
+</g>
+<g data-event="bass-suggested-7"  aria-label="Estimated bass at 2.647075s; brightness 0 to 0.13; noise 0.002 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 2.647075s–3.088s · pitch 38 · gain 0.2165 · decay 0</title>
+<path d="M319.04490625 325L326.57254 268H336.65238250000004L340.5523825 325Z" fill="url(#g53)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture53"><path d="M319.04490625 325L326.57254 268H336.65238250000004L340.5523825 325Z"/></clipPath><g clip-path="url(#texture53)">
+</g>
+</g>
+<g data-event="bass-suggested-8"  aria-label="Estimated bass at 3.088254s; brightness 0 to 0; noise 0.002 to 0.002">
+<title>Unreviewed audio-analysis suggestion · 3.088254s–3.553s · pitch 30.2 · gain 0.227 · decay 0</title>
+<path d="M340.5523825 325L340.7961325 268H359.29183375L363.19183375 325Z" fill="url(#g54)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture54"><path d="M340.5523825 325L340.7961325 268H359.29183375L363.19183375 325Z"/></clipPath><g clip-path="url(#texture54)">
+</g>
+</g>
+<g data-event="bass-suggested-9"  aria-label="Estimated bass at 3.552653s; brightness 0.009 to 0; noise 0.003 to 0.003">
+<title>Unreviewed audio-analysis suggestion · 3.552653s–3.762s · pitch 31.2 · gain 0.1449 · decay 0</title>
+<path d="M363.19183375 325L363.43558375 268H370.832665L373.37960875 325Z" fill="url(#g55)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture55"><path d="M363.19183375 325L363.43558375 268H370.832665L373.37960875 325Z"/></clipPath><g clip-path="url(#texture55)">
+</g>
+</g>
+<g data-event="bass-suggested-10"  aria-label="Estimated bass at 3.924172s; brightness 0 to 0.066; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 3.924172s–4.156s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M381.30338500000005 325L383.56733500000007 268H389.7931975L392.62313500000005 325Z" fill="url(#g51)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture51"><path d="M381.30338500000005 325L383.56733500000007 268H389.7931975L392.62313500000005 325Z"/></clipPath><g clip-path="url(#texture51)">
+<path d="M381.30338500000005 325L383.56733500000007 268H389.7931975L392.62313500000005 325Z" fill="url(#g56)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture56"><path d="M381.30338500000005 325L383.56733500000007 268H389.7931975L392.62313500000005 325Z"/></clipPath><g clip-path="url(#texture56)">
 <circle cx="386.96326000000005" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="386.96326000000005" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="386.96326000000005" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="386.96326000000005" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-6"  aria-label="Estimated bass at 4.156372s; brightness 0 to 0; noise 0.002 to 0.002">
-<title>Unreviewed audio-analysis suggestion · 4.156372s–4.69s · pitch 31.1 · gain 0.1753 · decay 0</title>
-<path d="M392.62313500000005 325L396.01906 268H414.7585112500001L418.65851125000006 325Z" fill="url(#g52)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture52"><path d="M392.62313500000005 325L396.01906 268H414.7585112500001L418.65851125000006 325Z"/></clipPath><g clip-path="url(#texture52)">
+<g data-event="bass-suggested-11"  aria-label="Estimated bass at 4.156372s; brightness 0 to 0; noise 0.002 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 4.156372s–4.458s · pitch 30.1 · gain 0.1753 · decay 0</title>
+<path d="M392.62313500000005 325L396.01906 268H403.6598425L407.33876125 325Z" fill="url(#g57)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture57"><path d="M392.62313500000005 325L396.01906 268H403.6598425L407.33876125 325Z"/></clipPath><g clip-path="url(#texture57)">
 </g>
 </g>
-<g data-event="bass-suggested-7"  aria-label="Estimated bass at 5.22449s; brightness 0.041 to 0.288; noise 1 to 1">
+<g data-event="bass-suggested-12"  aria-label="Estimated bass at 4.458231s; brightness 0 to 0; noise 0.002 to 0.003">
+<title>Unreviewed audio-analysis suggestion · 4.458231s–4.69s · pitch 31.2 · gain 0.1745 · decay 0</title>
+<path d="M407.33876124999995 325L407.5825112499999 268H415.8285737499999L418.65851124999995 325Z" fill="url(#g58)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture58"><path d="M407.33876124999995 325L407.5825112499999 268H415.8285737499999L418.65851124999995 325Z"/></clipPath><g clip-path="url(#texture58)">
+</g>
+</g>
+<g data-event="bass-suggested-13"  aria-label="Estimated bass at 5.22449s; brightness 0.041 to 0.288; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 5.22449s–5.317s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M444.6938875 325L444.9376375 268H448.0898125L449.2217875 325Z" fill="url(#g53)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture53"><path d="M444.6938875 325L444.9376375 268H448.0898125L449.2217875 325Z"/></clipPath><g clip-path="url(#texture53)">
+<path d="M444.6938875 325L444.9376375 268H448.0898125L449.2217875 325Z" fill="url(#g59)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture59"><path d="M444.6938875 325L444.9376375 268H448.0898125L449.2217875 325Z"/></clipPath><g clip-path="url(#texture59)">
 <circle cx="446.9578375" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="446.9578375" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="446.9578375" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="446.9578375" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-8"  aria-label="Estimated bass at 5.36381s; brightness 0.15 to 0.226; noise 0.008 to 0.008">
-<title>Unreviewed audio-analysis suggestion · 5.36381s–5.898s · pitch 43.1 · gain 0.1616 · decay 0</title>
-<path d="M451.48573749999997 325L459.4095625 268H473.62111375L477.52111375 325Z" fill="url(#g54)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture54"><path d="M451.48573749999997 325L459.4095625 268H473.62111375L477.52111375 325Z"/></clipPath><g clip-path="url(#texture54)">
+<g data-event="bass-suggested-14"  aria-label="Estimated bass at 5.36381s; brightness 0.151 to 0.415; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 5.36381s–5.457s · pitch unpitched · gain 0.08 · decay 0</title>
+<path d="M451.48573749999997 325L453.0705025 268H454.88166249999995L456.01363749999996 325Z" fill="url(#g60)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture60"><path d="M451.48573749999997 325L453.0705025 268H454.88166249999995L456.01363749999996 325Z"/></clipPath><g clip-path="url(#texture60)">
+<circle cx="453.74968749999994" cy="313.6" r="1.5" fill="#fff"/>
+<circle cx="453.74968749999994" cy="302.2" r="1.5" fill="#fff"/>
+<circle cx="453.74968749999994" cy="290.8" r="1.5" fill="#fff"/>
+<circle cx="453.74968749999994" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-9"  aria-label="Estimated bass at 5.897868s; brightness 0.278 to 0.395; noise 0.007 to 0.019">
+<g data-event="bass-suggested-15"  aria-label="Estimated bass at 5.456689s; brightness 0.14 to 0.226; noise 0.006 to 0.006">
+<title>Unreviewed audio-analysis suggestion · 5.456689s–5.898s · pitch 43.1 · gain 0.1616 · decay 0</title>
+<path d="M456.01358875 325L459.40951375 268H473.621065L477.52106499999996 325Z" fill="url(#g61)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture61"><path d="M456.01358875 325L459.40951375 268H473.621065L477.52106499999996 325Z"/></clipPath><g clip-path="url(#texture61)">
+</g>
+</g>
+<g data-event="bass-suggested-16"  aria-label="Estimated bass at 5.897868s; brightness 0.278 to 0.395; noise 0.007 to 0.019">
 <title>Unreviewed audio-analysis suggestion · 5.897868s–6.548s · pitch 43.1 · gain 0.2373 · decay 0</title>
-<path d="M477.52106499999996 325L480.91699 268H505.31631625L509.21631625000003 325Z" fill="url(#g55)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture55"><path d="M477.52106499999996 325L480.91699 268H505.31631625L509.21631625000003 325Z"/></clipPath><g clip-path="url(#texture55)">
+<path d="M477.52106499999996 325L480.91699 268H505.31631625L509.21631625000003 325Z" fill="url(#g62)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture62"><path d="M477.52106499999996 325L480.91699 268H505.31631625L509.21631625000003 325Z"/></clipPath><g clip-path="url(#texture62)">
 </g>
 </g>
-<g data-event="bass-suggested-10"  aria-label="Estimated bass at 6.757007s; brightness 0.096 to 0.032; noise 1 to 1">
+<g data-event="bass-suggested-17"  aria-label="Estimated bass at 6.757007s; brightness 0.096 to 0.032; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 6.757007s–6.966s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M519.40409125 325L520.53606625 268H527.0449225L529.5918662500001 325Z" fill="url(#g56)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture56"><path d="M519.40409125 325L520.53606625 268H527.0449225L529.5918662500001 325Z"/></clipPath><g clip-path="url(#texture56)">
+<path d="M519.40409125 325L520.53606625 268H527.0449225L529.5918662500001 325Z" fill="url(#g63)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture63"><path d="M519.40409125 325L520.53606625 268H527.0449225L529.5918662500001 325Z"/></clipPath><g clip-path="url(#texture63)">
 <circle cx="524.49797875" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="524.49797875" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="524.49797875" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="524.49797875" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-11"  aria-label="Estimated bass at 6.965986s; brightness 0.343 to 0.131; noise 1 to 1">
-<title>Unreviewed audio-analysis suggestion · 6.965986s–7.361s · pitch unpitched · gain 0.1524 · decay 0</title>
-<path d="M529.5918174999999 325L532.9877425 268H544.93534375L548.83534375 325Z" fill="url(#g57)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture57"><path d="M529.5918174999999 325L532.9877425 268H544.93534375L548.83534375 325Z"/></clipPath><g clip-path="url(#texture57)">
-<circle cx="539.213580625" cy="313.6" r="1.5" fill="#fff"/>
-<circle cx="539.213580625" cy="302.2" r="1.5" fill="#fff"/>
-<circle cx="539.213580625" cy="290.8" r="1.5" fill="#fff"/>
-<circle cx="539.213580625" cy="279.4" r="1.5" fill="#fff"/>
+<g data-event="bass-suggested-18"  aria-label="Estimated bass at 6.965986s; brightness 0.354 to 0.289; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 6.965986s–7.268s · pitch unpitched · gain 0.1524 · decay 0</title>
+<path d="M529.5918174999999 325L532.9877425 268H540.628525L544.30744375 325Z" fill="url(#g64)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture64"><path d="M529.5918174999999 325L532.9877425 268H540.628525L544.30744375 325Z"/></clipPath><g clip-path="url(#texture64)">
+<circle cx="536.9496306249999" cy="313.6" r="1.5" fill="#fff"/>
+<circle cx="536.9496306249999" cy="302.2" r="1.5" fill="#fff"/>
+<circle cx="536.9496306249999" cy="290.8" r="1.5" fill="#fff"/>
+<circle cx="536.9496306249999" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-12"  aria-label="Estimated bass at 7.453605s; brightness 0.077 to 0.008; noise 1 to 1">
+<g data-event="bass-suggested-19"  aria-label="Estimated bass at 7.267846s; brightness 0.129 to 0.091; noise 0.004 to 0.007">
+<title>Unreviewed audio-analysis suggestion · 7.267846s–7.361s · pitch 35.6 · gain 0.08 · decay 0</title>
+<path d="M544.3074925000001 325L544.5512425000001 268H547.7034175L548.8353925 325Z" fill="url(#g65)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture65"><path d="M544.3074925000001 325L544.5512425000001 268H547.7034175L548.8353925 325Z"/></clipPath><g clip-path="url(#texture65)">
+</g>
+</g>
+<g data-event="bass-suggested-20"  aria-label="Estimated bass at 7.453605s; brightness 0.077 to 0.008; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 7.453605s–7.57s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M553.36324375 325L554.49521875 268H557.60815L559.02311875 325Z" fill="url(#g58)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture58"><path d="M553.36324375 325L554.49521875 268H557.60815L559.02311875 325Z"/></clipPath><g clip-path="url(#texture58)">
+<path d="M553.36324375 325L554.49521875 268H557.60815L559.02311875 325Z" fill="url(#g66)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture66"><path d="M553.36324375 325L554.49521875 268H557.60815L559.02311875 325Z"/></clipPath><g clip-path="url(#texture66)">
 <circle cx="556.19318125" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="556.19318125" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="556.19318125" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="556.19318125" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-13"  aria-label="Estimated bass at 7.592925s; brightness 0 to 0.295; noise 0.002 to 0.014">
-<title>Unreviewed audio-analysis suggestion · 7.592925s–8.197s · pitch 31.2 · gain 0.1717 · decay 0</title>
-<path d="M560.15509375 325L570.45606625 268H585.6863950000001L589.586395 325Z" fill="url(#g59)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture59"><path d="M560.15509375 325L570.45606625 268H585.6863950000001L589.586395 325Z"/></clipPath><g clip-path="url(#texture59)">
+<g data-event="bass-suggested-21"  aria-label="Estimated bass at 7.592925s; brightness 0.018 to 0.105; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 7.592925s–7.663s · pitch unpitched · gain 0.08 · decay 0</title>
+<path d="M560.15509375 325L561.28706875 268H562.7020375L563.5510187499999 325Z" fill="url(#g67)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture67"><path d="M560.15509375 325L561.28706875 268H562.7020375L563.5510187499999 325Z"/></clipPath><g clip-path="url(#texture67)">
+<circle cx="561.85305625" cy="313.6" r="1.1319749999999733" fill="#fff"/>
+<circle cx="561.85305625" cy="302.2" r="1.1319749999999733" fill="#fff"/>
+<circle cx="561.85305625" cy="290.8" r="1.1319749999999733" fill="#fff"/>
+<circle cx="561.85305625" cy="279.4" r="1.1319749999999733" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-14"  aria-label="Estimated bass at 9.009342s; brightness 0.108 to 0.02; noise 0.004 to 0.003">
-<title>Unreviewed audio-analysis suggestion · 9.009342s–10.519s · pitch 36.1 · gain 0.2209 · decay 0</title>
-<path d="M629.2054224999999 325L641.6571475 268H698.8836512500001L702.78365125 325Z" fill="url(#g60)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture60"><path d="M629.2054224999999 325L641.6571475 268H698.8836512500001L702.78365125 325Z"/></clipPath><g clip-path="url(#texture60)">
-</g>
-<text class="small" x="631.2054224999999" y="345">B 11→2</text>
-<text class="small" x="631.2054224999999" y="361">N 0→0</text>
-</g>
-<g data-event="bass-suggested-15"  aria-label="Estimated bass at 10.518639s; brightness 0.007 to 0.047; noise 0.004 to 0.004">
-<title>Unreviewed audio-analysis suggestion · 10.518639s–10.867s · pitch 31.1 · gain 0.1771 · decay 0</title>
-<path d="M702.78365125 325L703.02740125 268H715.8632275000001L719.7632275000001 325Z" fill="url(#g61)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture61"><path d="M702.78365125 325L703.02740125 268H715.8632275000001L719.7632275000001 325Z"/></clipPath><g clip-path="url(#texture61)">
+<g data-event="bass-suggested-22"  aria-label="Estimated bass at 7.662585s; brightness 0 to 0.171; noise 0.002 to 0.015">
+<title>Unreviewed audio-analysis suggestion · 7.662585s–7.964s · pitch 31.1 · gain 0.1623 · decay 0</title>
+<path d="M563.5510187499999 325L566.94694375 268H574.5877262500001L578.266645 325Z" fill="url(#g68)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture68"><path d="M563.5510187499999 325L566.94694375 268H574.5877262500001L578.266645 325Z"/></clipPath><g clip-path="url(#texture68)">
 </g>
 </g>
-<g data-event="bass-suggested-16"  aria-label="Estimated bass at 10.913379s; brightness 0.256 to 0.2; noise 1 to 1">
+<g data-event="bass-suggested-23"  aria-label="Estimated bass at 7.964444s; brightness 0.318 to 0.295; noise 0.011 to 0.014">
+<title>Unreviewed audio-analysis suggestion · 7.964444s–8.197s · pitch 33.2 · gain 0.1717 · decay 0</title>
+<path d="M578.266645 325L578.510395 268H586.7564575L589.586395 325Z" fill="url(#g69)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture69"><path d="M578.266645 325L578.510395 268H586.7564575L589.586395 325Z"/></clipPath><g clip-path="url(#texture69)">
+</g>
+</g>
+<g data-event="bass-suggested-24"  aria-label="Estimated bass at 9.009342s; brightness 0.045 to 0.164; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 9.009342s–9.288s · pitch unpitched · gain 0.2051 · decay 0</title>
+<path d="M629.2054224999999 325L633.9597175 268H639.39314875L642.7890737500001 325Z" fill="url(#g70)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture70"><path d="M629.2054224999999 325L633.9597175 268H639.39314875L642.7890737500001 325Z"/></clipPath><g clip-path="url(#texture70)">
+<circle cx="635.9972481249999" cy="313.6" r="1.5" fill="#fff"/>
+<circle cx="635.9972481249999" cy="302.2" r="1.5" fill="#fff"/>
+<circle cx="635.9972481249999" cy="290.8" r="1.5" fill="#fff"/>
+<circle cx="635.9972481249999" cy="279.4" r="1.5" fill="#fff"/>
+</g>
+</g>
+<g data-event="bass-suggested-25"  aria-label="Estimated bass at 9.287982s; brightness 0.12 to 0.167; noise 0.004 to 0.007">
+<title>Unreviewed audio-analysis suggestion · 9.287982s–9.497s · pitch 36.1 · gain 0.2209 · decay 0</title>
+<path d="M642.7891225 325L643.0328724999999 268H650.42995375L652.9768975 325Z" fill="url(#g71)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture71"><path d="M642.7891225 325L643.0328724999999 268H650.42995375L652.9768975 325Z"/></clipPath><g clip-path="url(#texture71)">
+</g>
+</g>
+<g data-event="bass-suggested-26"  aria-label="Estimated bass at 9.496961s; brightness 0.092 to 0.173; noise 0.003 to 0.01">
+<title>Unreviewed audio-analysis suggestion · 9.496961s–9.706s · pitch 37 · gain 0.1859 · decay 0</title>
+<path d="M652.97684875 325L653.22059875 268H660.6176800000001L663.1646237500001 325Z" fill="url(#g72)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture72"><path d="M652.97684875 325L653.22059875 268H660.6176800000001L663.1646237500001 325Z"/></clipPath><g clip-path="url(#texture72)">
+</g>
+</g>
+<g data-event="bass-suggested-27"  aria-label="Estimated bass at 9.705941s; brightness 0.153 to 0.117; noise 0.004 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 9.705941s–10.147s · pitch 38 · gain 0.1809 · decay 0</title>
+<path d="M663.1646237499999 325L663.4083737499999 268H680.7721L684.6721 325Z" fill="url(#g73)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture73"><path d="M663.1646237499999 325L663.4083737499999 268H680.7721L684.6721 325Z"/></clipPath><g clip-path="url(#texture73)">
+</g>
+</g>
+<g data-event="bass-suggested-28"  aria-label="Estimated bass at 10.14712s; brightness 0 to 0; noise 0.002 to 0.002">
+<title>Unreviewed audio-analysis suggestion · 10.14712s–10.588s · pitch 30.2 · gain 0.199 · decay 0</title>
+<path d="M684.6721 325L684.91585 268H702.27957625L706.17957625 325Z" fill="url(#g74)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture74"><path d="M684.6721 325L684.91585 268H702.27957625L706.17957625 325Z"/></clipPath><g clip-path="url(#texture74)">
+</g>
+</g>
+<g data-event="bass-suggested-29"  aria-label="Estimated bass at 10.588299s; brightness 0 to 0.048; noise 0.002 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 10.588299s–10.867s · pitch 31.1 · gain 0.1771 · decay 0</title>
+<path d="M706.17957625 325L706.42332625 268H716.3673024999999L719.7632275 325Z" fill="url(#g75)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture75"><path d="M706.17957625 325L706.42332625 268H716.3673024999999L719.7632275 325Z"/></clipPath><g clip-path="url(#texture75)">
+</g>
+</g>
+<g data-event="bass-suggested-30"  aria-label="Estimated bass at 10.913379s; brightness 0.256 to 0.2; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 10.913379s–11.053s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M722.02722625 325L724.29117625 268H727.1211137500001L728.8190762500001 325Z" fill="url(#g62)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture62"><path d="M722.02722625 325L724.29117625 268H727.1211137500001L728.8190762500001 325Z"/></clipPath><g clip-path="url(#texture62)">
+<path d="M722.02722625 325L724.29117625 268H727.1211137500001L728.8190762500001 325Z" fill="url(#g76)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture76"><path d="M722.02722625 325L724.29117625 268H727.1211137500001L728.8190762500001 325Z"/></clipPath><g clip-path="url(#texture76)">
 <circle cx="725.42315125" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="725.42315125" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="725.42315125" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="725.42315125" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-17"  aria-label="Estimated bass at 11.122358s; brightness 0 to 0; noise 0.002 to 0.003">
-<title>Unreviewed audio-analysis suggestion · 11.122358s–11.749s · pitch 31.1 · gain 0.1636 · decay 0</title>
-<path d="M732.2149525000001 325L742.91211625 268H758.8782287500001L762.77822875 325Z" fill="url(#g63)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture63"><path d="M732.2149525000001 325L742.91211625 268H758.8782287500001L762.77822875 325Z"/></clipPath><g clip-path="url(#texture63)">
+<g data-event="bass-suggested-31"  aria-label="Estimated bass at 11.122358s; brightness 0.202 to 0.201; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 11.122358s–11.192s · pitch unpitched · gain 0.08 · decay 0</title>
+<path d="M732.2149525000001 325L733.40352625 268H734.7618962500001L735.6108775 325Z" fill="url(#g77)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture77"><path d="M732.2149525000001 325L733.40352625 268H734.7618962500001L735.6108775 325Z"/></clipPath><g clip-path="url(#texture77)">
+<circle cx="733.9129150000001" cy="313.6" r="1.1319749999999733" fill="#fff"/>
+<circle cx="733.9129150000001" cy="302.2" r="1.1319749999999733" fill="#fff"/>
+<circle cx="733.9129150000001" cy="290.8" r="1.1319749999999733" fill="#fff"/>
+<circle cx="733.9129150000001" cy="279.4" r="1.1319749999999733" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-18"  aria-label="Estimated bass at 12.074376s; brightness 0.051 to 0.182; noise 0.004 to 0.006">
-<title>Unreviewed audio-analysis suggestion · 12.074376s–13.584s · pitch 38.2 · gain 0.223 · decay 0</title>
-<path d="M778.62583 325L804.3782125 268H848.3040587500001L852.2040587500001 325Z" fill="url(#g64)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture64"><path d="M778.62583 325L804.3782125 268H848.3040587500001L852.2040587500001 325Z"/></clipPath><g clip-path="url(#texture64)">
-</g>
-<text class="small" x="780.62583" y="345">B 5→18</text>
-<text class="small" x="780.62583" y="361">N 0→1</text>
-</g>
-<g data-event="bass-suggested-19"  aria-label="Estimated bass at 13.583673s; brightness 0.137 to 0.209; noise 0.004 to 0.008">
-<title>Unreviewed audio-analysis suggestion · 13.583673s–14.466s · pitch 43 · gain 0.1943 · decay 0</title>
-<path d="M852.20405875 325L857.86393375 268H891.31901125L895.21901125 325Z" fill="url(#g65)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture65"><path d="M852.20405875 325L857.86393375 268H891.31901125L895.21901125 325Z"/></clipPath><g clip-path="url(#texture65)">
+<g data-event="bass-suggested-32"  aria-label="Estimated bass at 11.192018s; brightness 0 to 0; noise 0.002 to 0.004">
+<title>Unreviewed audio-analysis suggestion · 11.192018s–11.494s · pitch 30.1 · gain 0.1492 · decay 0</title>
+<path d="M735.6108774999999 325L740.7613637499999 268H746.6475849999999L750.3265037499999 325Z" fill="url(#g78)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture78"><path d="M735.6108774999999 325L740.7613637499999 268H746.6475849999999L750.3265037499999 325Z"/></clipPath><g clip-path="url(#texture78)">
 </g>
 </g>
-<g data-event="bass-suggested-20"  aria-label="Estimated bass at 14.512472s; brightness 0.196 to 0.166; noise 1 to 1">
+<g data-event="bass-suggested-33"  aria-label="Estimated bass at 11.493878s; brightness 0 to 0; noise 0.002 to 0.003">
+<title>Unreviewed audio-analysis suggestion · 11.493878s–11.749s · pitch 31.1 · gain 0.1636 · decay 0</title>
+<path d="M750.3265524999999 325L750.5703024999999 268H759.66534625L762.7782775 325Z" fill="url(#g79)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture79"><path d="M750.3265524999999 325L750.5703024999999 268H759.66534625L762.7782775 325Z"/></clipPath><g clip-path="url(#texture79)">
+</g>
+</g>
+<g data-event="bass-suggested-34"  aria-label="Estimated bass at 12.074376s; brightness 0.091 to 0.051; noise 0.005 to 0.003">
+<title>Unreviewed audio-analysis suggestion · 12.074376s–12.632s · pitch 34 · gain 0.1445 · decay 0</title>
+<path d="M778.62583 325L788.13442 268H801.89318125L805.79318125 325Z" fill="url(#g80)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture80"><path d="M778.62583 325L788.13442 268H801.89318125L805.79318125 325Z"/></clipPath><g clip-path="url(#texture80)">
+</g>
+</g>
+<g data-event="bass-suggested-35"  aria-label="Estimated bass at 12.631655s; brightness 0 to 0.217; noise 0.002 to 0.007">
+<title>Unreviewed audio-analysis suggestion · 12.631655s–12.934s · pitch 38 · gain 0.223 · decay 0</title>
+<path d="M805.79318125 325L810.9436675000001 268H816.8298887500001L820.5088075000001 325Z" fill="url(#g81)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture81"><path d="M805.79318125 325L810.9436675000001 268H816.8298887500001L820.5088075000001 325Z"/></clipPath><g clip-path="url(#texture81)">
+</g>
+</g>
+<g data-event="bass-suggested-36"  aria-label="Estimated bass at 12.933515s; brightness 0.185 to 0.132; noise 0.005 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 12.933515s–13.073s · pitch 40.1 · gain 0.2095 · decay 0</title>
+<path d="M820.50885625 325L820.75260625 268H825.6027437500001L827.3007062500001 325Z" fill="url(#g82)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture82"><path d="M820.50885625 325L820.75260625 268H825.6027437500001L827.3007062500001 325Z"/></clipPath><g clip-path="url(#texture82)">
+</g>
+</g>
+<g data-event="bass-suggested-37"  aria-label="Estimated bass at 13.072834s; brightness 0.08 to 0.169; noise 0.003 to 0.013">
+<title>Unreviewed audio-analysis suggestion · 13.072834s–13.259s · pitch 43 · gain 0.1701 · decay 0</title>
+<path d="M827.3006574999999 325L827.5444074999999 268H834.0925075L836.3564575 325Z" fill="url(#g83)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture83"><path d="M827.3006574999999 325L827.5444074999999 268H834.0925075L836.3564575 325Z"/></clipPath><g clip-path="url(#texture83)">
+</g>
+</g>
+<g data-event="bass-suggested-38"  aria-label="Estimated bass at 13.258594s; brightness 0.261 to 0.281; noise 0.007 to 0.008">
+<title>Unreviewed audio-analysis suggestion · 13.258594s–13.351s · pitch 45 · gain 0.1861 · decay 0</title>
+<path d="M836.3564575 325L836.6002075 268H839.7523825L840.8843575 325Z" fill="url(#g84)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture84"><path d="M836.3564575 325L836.6002075 268H839.7523825L840.8843575 325Z"/></clipPath><g clip-path="url(#texture84)">
+</g>
+</g>
+<g data-event="bass-suggested-39"  aria-label="Estimated bass at 13.351474s; brightness 0.225 to 0.159; noise 0.006 to 0.006">
+<title>Unreviewed audio-analysis suggestion · 13.351474s–13.491s · pitch 43.1 · gain 0.1449 · decay 0</title>
+<path d="M840.8843575 325L843.2615049999999 268H845.9782449999999L847.6762074999999 325Z" fill="url(#g85)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture85"><path d="M840.8843575 325L843.2615049999999 268H845.9782449999999L847.6762074999999 325Z"/></clipPath><g clip-path="url(#texture85)">
+</g>
+</g>
+<g data-event="bass-suggested-40"  aria-label="Estimated bass at 13.490794s; brightness 0.127 to 0.169; noise 0.003 to 0.007">
+<title>Unreviewed audio-analysis suggestion · 13.490794s–13.723s · pitch 40.1 · gain 0.1857 · decay 0</title>
+<path d="M847.6762074999999 325L851.63812 268H856.1660199999999L858.9959574999999 325Z" fill="url(#g86)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture86"><path d="M847.6762074999999 325L851.63812 268H856.1660199999999L858.9959574999999 325Z"/></clipPath><g clip-path="url(#texture86)">
+</g>
+</g>
+<g data-event="bass-suggested-41"  aria-label="Estimated bass at 13.722993s; brightness 0.137 to 0.197; noise 0.004 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 13.722993s–14.141s · pitch 43 · gain 0.1943 · decay 0</title>
+<path d="M858.99590875 325L859.23965875 268H875.47141L879.37141 325Z" fill="url(#g87)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture87"><path d="M858.99590875 325L859.23965875 268H875.47141L879.37141 325Z"/></clipPath><g clip-path="url(#texture87)">
+</g>
+</g>
+<g data-event="bass-suggested-42"  aria-label="Estimated bass at 14.140952s; brightness 0.18 to 0.212; noise 0.004 to 0.009">
+<title>Unreviewed audio-analysis suggestion · 14.140952s–14.466s · pitch 33 · gain 0.1203 · decay 0</title>
+<path d="M879.37141 325L879.61516 268H891.3190112500001L895.2190112500001 325Z" fill="url(#g88)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture88"><path d="M879.37141 325L879.61516 268H891.3190112500001L895.2190112500001 325Z"/></clipPath><g clip-path="url(#texture88)">
+</g>
+</g>
+<g data-event="bass-suggested-43"  aria-label="Estimated bass at 14.512472s; brightness 0.196 to 0.166; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 14.512472s–14.605s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M897.48301 325L897.72676 268H900.878935L902.01091 325Z" fill="url(#g66)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture66"><path d="M897.48301 325L897.72676 268H900.878935L902.01091 325Z"/></clipPath><g clip-path="url(#texture66)">
+<path d="M897.48301 325L897.72676 268H900.878935L902.01091 325Z" fill="url(#g89)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture89"><path d="M897.48301 325L897.72676 268H900.878935L902.01091 325Z"/></clipPath><g clip-path="url(#texture89)">
 <circle cx="899.74696" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="899.74696" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="899.74696" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="899.74696" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-21"  aria-label="Estimated bass at 14.675011s; brightness 0 to 0.196; noise 0.002 to 0.008">
-<title>Unreviewed audio-analysis suggestion · 14.675011s–15.256s · pitch 31.1 · gain 0.1555 · decay 0</title>
-<path d="M905.40678625 325L915.3115674999999 268H929.8061124999999L933.7061124999999 325Z" fill="url(#g67)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture67"><path d="M905.40678625 325L915.3115674999999 268H929.8061124999999L933.7061124999999 325Z"/></clipPath><g clip-path="url(#texture67)">
+<g data-event="bass-suggested-44"  aria-label="Estimated bass at 14.675011s; brightness 0 to 0; noise 0.002 to 0.002">
+<title>Unreviewed audio-analysis suggestion · 14.675011s–15s · pitch 31 · gain 0.1443 · decay 0</title>
+<path d="M905.40678625 325L910.95346375 268H917.3543875L921.2543875 325Z" fill="url(#g90)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture90"><path d="M905.40678625 325L910.95346375 268H917.3543875L921.2543875 325Z"/></clipPath><g clip-path="url(#texture90)">
 </g>
 </g>
-<g data-event="bass-suggested-22"  aria-label="Estimated bass at 16.021769s; brightness 0.218 to 0.094; noise 0.009 to 0.003">
-<title>Unreviewed audio-analysis suggestion · 16.021769s–17.531s · pitch 36.1 · gain 0.2104 · decay 0</title>
-<path d="M971.0612387499999 325L995.96464 268H1040.7394675L1044.6394675000001 325Z" fill="url(#g68)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture68"><path d="M971.0612387499999 325L995.96464 268H1040.7394675L1044.6394675000001 325Z"/></clipPath><g clip-path="url(#texture68)">
-</g>
-<text class="small" x="973.0612387499999" y="345">B 22→9</text>
-<text class="small" x="973.0612387499999" y="361">N 1→0</text>
-</g>
-<g data-event="bass-suggested-23"  aria-label="Estimated bass at 17.531066s; brightness 0.052 to 0; noise 0.006 to 0.002">
-<title>Unreviewed audio-analysis suggestion · 17.531066s–17.856s · pitch 31.1 · gain 0.2055 · decay 0</title>
-<path d="M1044.6394675000001 325L1049.1673675000002 268H1056.58706875L1060.48706875 325Z" fill="url(#g69)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture69"><path d="M1044.6394675000001 325L1049.1673675000002 268H1056.58706875L1060.48706875 325Z"/></clipPath><g clip-path="url(#texture69)">
+<g data-event="bass-suggested-45"  aria-label="Estimated bass at 15.000091s; brightness 0.275 to 0.129; noise 0.009 to 0.006">
+<title>Unreviewed audio-analysis suggestion · 15.000091s–15.256s · pitch 33.2 · gain 0.1555 · decay 0</title>
+<path d="M921.25443625 325L921.49818625 268H930.59323L933.7061612499999 325Z" fill="url(#g91)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture91"><path d="M921.25443625 325L921.49818625 268H930.59323L933.7061612499999 325Z"/></clipPath><g clip-path="url(#texture91)">
 </g>
 </g>
-<g data-event="bass-suggested-24"  aria-label="Estimated bass at 17.856145s; brightness 0.129 to 0.153; noise 0.004 to 0.007">
-<title>Unreviewed audio-analysis suggestion · 17.856145s–17.949s · pitch 54.7 · gain 0.08 · decay 0</title>
-<path d="M1060.4870687500002 325L1060.7308187500003 268H1063.8829937500002L1065.0149687500002 325Z" fill="url(#g70)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture70"><path d="M1060.4870687500002 325L1060.7308187500003 268H1063.8829937500002L1065.0149687500002 325Z"/></clipPath><g clip-path="url(#texture70)">
+<g data-event="bass-suggested-46"  aria-label="Estimated bass at 16.021769s; brightness 0.337 to 0.215; noise 0.016 to 0.009">
+<title>Unreviewed audio-analysis suggestion · 16.021769s–16.324s · pitch 33.1 · gain 0.146 · decay 0</title>
+<path d="M971.0612387499999 325L976.2117249999999 268H982.09794625L985.7768649999999 325Z" fill="url(#g92)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture92"><path d="M971.0612387499999 325L976.2117249999999 268H982.09794625L985.7768649999999 325Z"/></clipPath><g clip-path="url(#texture92)">
 </g>
 </g>
-<g data-event="bass-suggested-25"  aria-label="Estimated bass at 17.995465s; brightness 0.164 to 0.152; noise 1 to 1">
+<g data-event="bass-suggested-47"  aria-label="Estimated bass at 16.323628s; brightness 0.134 to 0.337; noise 0.003 to 0.015">
+<title>Unreviewed audio-analysis suggestion · 16.323628s–16.509s · pitch 36.1 · gain 0.1734 · decay 0</title>
+<path d="M985.7768649999999 325L986.0206149999999 268H992.5687149999999L994.8326649999999 325Z" fill="url(#g93)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture93"><path d="M985.7768649999999 325L986.0206149999999 268H992.5687149999999L994.8326649999999 325Z"/></clipPath><g clip-path="url(#texture93)">
+</g>
+</g>
+<g data-event="bass-suggested-48"  aria-label="Estimated bass at 16.509388s; brightness 0.127 to 0.273; noise 0.004 to 0.014">
+<title>Unreviewed audio-analysis suggestion · 16.509388s–16.742s · pitch 37.1 · gain 0.2104 · decay 0</title>
+<path d="M994.832665 325L995.96464 268H1003.3224775L1006.152415 325Z" fill="url(#g94)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture94"><path d="M994.832665 325L995.96464 268H1003.3224775L1006.152415 325Z"/></clipPath><g clip-path="url(#texture94)">
+</g>
+</g>
+<g data-event="bass-suggested-49"  aria-label="Estimated bass at 16.741587s; brightness 0.171 to 0.129; noise 0.005 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 16.741587s–17.206s · pitch 38.1 · gain 0.1766 · decay 0</title>
+<path d="M1006.15236625 325L1006.39611625 268H1024.8918175L1028.7918175 325Z" fill="url(#g95)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture95"><path d="M1006.15236625 325L1006.39611625 268H1024.8918175L1028.7918175 325Z"/></clipPath><g clip-path="url(#texture95)">
+</g>
+</g>
+<g data-event="bass-suggested-50"  aria-label="Estimated bass at 17.205986s; brightness 0 to 0.042; noise 0.002 to 0.004">
+<title>Unreviewed audio-analysis suggestion · 17.205986s–17.647s · pitch 30.2 · gain 0.1934 · decay 0</title>
+<path d="M1028.7918175 325L1029.0355675 268H1046.39929375L1050.29929375 325Z" fill="url(#g96)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture96"><path d="M1028.7918175 325L1029.0355675 268H1046.39929375L1050.29929375 325Z"/></clipPath><g clip-path="url(#texture96)">
+</g>
+</g>
+<g data-event="bass-suggested-51"  aria-label="Estimated bass at 17.647166s; brightness 0 to 0.128; noise 0.002 to 0.004">
+<title>Unreviewed audio-analysis suggestion · 17.647166s–17.949s · pitch 31.1 · gain 0.2055 · decay 0</title>
+<path d="M1050.2993425 325L1050.5430925 268H1061.33605L1065.01496875 325Z" fill="url(#g97)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture97"><path d="M1050.2993425 325L1050.5430925 268H1061.33605L1065.01496875 325Z"/></clipPath><g clip-path="url(#texture97)">
+</g>
+</g>
+<g data-event="bass-suggested-52"  aria-label="Estimated bass at 17.995465s; brightness 0.164 to 0.152; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 17.995465s–18.228s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M1067.27891875 325L1071.24083125 268H1075.76873125L1078.59866875 325Z" fill="url(#g71)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture71"><path d="M1067.27891875 325L1071.24083125 268H1075.76873125L1078.59866875 325Z"/></clipPath><g clip-path="url(#texture71)">
+<path d="M1067.27891875 325L1071.24083125 268H1075.76873125L1078.59866875 325Z" fill="url(#g98)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture98"><path d="M1067.27891875 325L1071.24083125 268H1075.76873125L1078.59866875 325Z"/></clipPath><g clip-path="url(#texture98)">
 <circle cx="1072.93879375" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="1072.93879375" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="1072.93879375" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="1072.93879375" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-26"  aria-label="Estimated bass at 18.227664s; brightness 0 to 0; noise 0.001 to 0.003">
-<title>Unreviewed audio-analysis suggestion · 18.227664s–18.808s · pitch 30.2 · gain 0.1604 · decay 0</title>
-<path d="M1078.5986200000002 325L1081.9945450000002 268H1102.99794625L1106.8979462500001 325Z" fill="url(#g72)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture72"><path d="M1078.5986200000002 325L1081.9945450000002 268H1102.99794625L1106.8979462500001 325Z"/></clipPath><g clip-path="url(#texture72)">
+<g data-event="bass-suggested-53"  aria-label="Estimated bass at 18.227664s; brightness 0 to 0; noise 0.002 to 0.002">
+<title>Unreviewed audio-analysis suggestion · 18.227664s–18.53s · pitch 30 · gain 0.1604 · decay 0</title>
+<path d="M1078.5986200000002 325L1081.9945450000002 268H1089.6353275000001L1093.31424625 325Z" fill="url(#g99)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture99"><path d="M1078.5986200000002 325L1081.9945450000002 268H1089.6353275000001L1093.31424625 325Z"/></clipPath><g clip-path="url(#texture99)">
 </g>
 </g>
-<g data-event="bass-suggested-27"  aria-label="Estimated bass at 19.342222s; brightness 0.003 to 0.067; noise 1 to 1">
+<g data-event="bass-suggested-54"  aria-label="Estimated bass at 18.529524s; brightness 0 to 0.282; noise 1 to 1">
+<title>Unreviewed audio-analysis suggestion · 18.529524s–18.808s · pitch unpitched · gain 0.1604 · decay 0</title>
+<path d="M1093.3142950000001 325L1093.5580450000002 268H1103.5020212499999L1106.89794625 325Z" fill="url(#g100)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture100"><path d="M1093.3142950000001 325L1093.5580450000002 268H1103.5020212499999L1106.89794625 325Z"/></clipPath><g clip-path="url(#texture100)">
+<circle cx="1100.1061206250001" cy="313.6" r="1.5" fill="#fff"/>
+<circle cx="1100.1061206250001" cy="302.2" r="1.5" fill="#fff"/>
+<circle cx="1100.1061206250001" cy="290.8" r="1.5" fill="#fff"/>
+<circle cx="1100.1061206250001" cy="279.4" r="1.5" fill="#fff"/>
+</g>
+</g>
+<g data-event="bass-suggested-55"  aria-label="Estimated bass at 19.342222s; brightness 0.003 to 0.067; noise 1 to 1">
 <title>Unreviewed audio-analysis suggestion · 19.342222s–19.574s · pitch unpitched · gain 0.08 · decay 0</title>
-<path d="M1132.9333225 325L1134.0652975 268H1141.423135L1144.2530725 325Z" fill="url(#g73)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture73"><path d="M1132.9333225 325L1134.0652975 268H1141.423135L1144.2530725 325Z"/></clipPath><g clip-path="url(#texture73)">
+<path d="M1132.9333225 325L1134.0652975 268H1141.423135L1144.2530725 325Z" fill="url(#g101)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture101"><path d="M1132.9333225 325L1134.0652975 268H1141.423135L1144.2530725 325Z"/></clipPath><g clip-path="url(#texture101)">
 <circle cx="1138.5931974999999" cy="313.6" r="1.5" fill="#fff"/>
 <circle cx="1138.5931974999999" cy="302.2" r="1.5" fill="#fff"/>
 <circle cx="1138.5931974999999" cy="290.8" r="1.5" fill="#fff"/>
 <circle cx="1138.5931974999999" cy="279.4" r="1.5" fill="#fff"/>
 </g>
 </g>
-<g data-event="bass-suggested-28"  aria-label="Estimated bass at 19.574422s; brightness 0.087 to 0.178; noise 0.005 to 0.008">
+<g data-event="bass-suggested-56"  aria-label="Estimated bass at 19.574422s; brightness 0.087 to 0.178; noise 0.005 to 0.008">
 <title>Unreviewed audio-analysis suggestion · 19.574422s–20s · pitch 43.1 · gain 0.1745 · decay 0</title>
-<path d="M1144.2530725 325L1147.6489975 268H1161.1L1165 325Z" fill="url(#g74)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture74"><path d="M1144.2530725 325L1147.6489975 268H1161.1L1165 325Z"/></clipPath><g clip-path="url(#texture74)">
+<path d="M1144.2530725 325L1147.6489975 268H1161.1L1165 325Z" fill="url(#g102)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture102"><path d="M1144.2530725 325L1147.6489975 268H1161.1L1165 325Z"/></clipPath><g clip-path="url(#texture102)">
 </g>
 </g>
 <text class="name" style="font-size:14px" x="25" y="410" textLength="121.8" lengthAdjust="spacingAndGlyphs">Estimated other</text>

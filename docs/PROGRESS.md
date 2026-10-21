@@ -84,3 +84,7 @@ See [COMPLETION_AUDIT.md](COMPLETION_AUDIT.md) for requirement-by-requirement st
 - Next action:
 
 Update this ledger with completed evidence, not anticipated results. Record pushed commit IDs in PRs or handoffs; avoid trying to embed a commit's own hash inside itself. Keep historical outcomes and append verification after fixes.
+
+## 2026-10-21: missing-note failure and recovery checkpoint
+
+Student listening rejected both reconstructions for missing much of the music. This supersedes any implication that the draft was musically ready. A new controlled seven-note melody reproduced the loss (two events); a sustained vibrato note also exposed an invented duration-based split. v3 segmentation passes both regressions and the existing analyzer tests. Applied drafts regenerated: trumpet 13 events; Choice 103. More events do not prove accuracy. Prior artifacts preserved in `outputs/baseline-v2-note-loss/`; new embedded-audio review pages regenerated. See [experiment](experiments/2026-10-21-note-recovery.md). Actual phrase-level listening, repeated-note recovery, overlapping-pitch handling, corrections, and final workflow gates remain pending.

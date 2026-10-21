@@ -4,10 +4,19 @@
 <text x="30" y="40" font-size="27" font-weight="bold">Mihai Sorohan · solo trumpet 06</text>
 <text x="30" y="67" font-size="14">ToneScript / timbre over time · fixed row position does not indicate pitch</text>
 <defs>
-<linearGradient id="g0"><stop stop-color="hsl(120,65%,50%)"/><stop offset="1" stop-color="hsl(124,65%,49%)"/></linearGradient>
-<linearGradient id="g1"><stop stop-color="hsl(124,65%,49%)"/><stop offset="1" stop-color="hsl(135,65%,47%)"/></linearGradient>
-<linearGradient id="g2"><stop stop-color="hsl(113,65%,51%)"/><stop offset="1" stop-color="hsl(121,65%,50%)"/></linearGradient>
-<linearGradient id="g3"><stop stop-color="hsl(125,65%,49%)"/><stop offset="1" stop-color="hsl(138,65%,46%)"/></linearGradient>
+<linearGradient id="g0"><stop stop-color="hsl(113,65%,51%)"/><stop offset="1" stop-color="hsl(122,65%,50%)"/></linearGradient>
+<linearGradient id="g1"><stop stop-color="hsl(112,65%,51%)"/><stop offset="1" stop-color="hsl(123,65%,49%)"/></linearGradient>
+<linearGradient id="g2"><stop stop-color="hsl(126,65%,49%)"/><stop offset="1" stop-color="hsl(130,65%,48%)"/></linearGradient>
+<linearGradient id="g3"><stop stop-color="hsl(109,65%,52%)"/><stop offset="1" stop-color="hsl(123,65%,49%)"/></linearGradient>
+<linearGradient id="g4"><stop stop-color="hsl(129,65%,48%)"/><stop offset="1" stop-color="hsl(124,65%,49%)"/></linearGradient>
+<linearGradient id="g5"><stop stop-color="hsl(109,65%,52%)"/><stop offset="1" stop-color="hsl(113,65%,51%)"/></linearGradient>
+<linearGradient id="g6"><stop stop-color="hsl(120,65%,50%)"/><stop offset="1" stop-color="hsl(131,65%,48%)"/></linearGradient>
+<linearGradient id="g7"><stop stop-color="hsl(114,65%,51%)"/><stop offset="1" stop-color="hsl(126,65%,49%)"/></linearGradient>
+<linearGradient id="g8"><stop stop-color="hsl(131,65%,48%)"/><stop offset="1" stop-color="hsl(135,65%,47%)"/></linearGradient>
+<linearGradient id="g9"><stop stop-color="hsl(133,65%,47%)"/><stop offset="1" stop-color="hsl(139,65%,46%)"/></linearGradient>
+<linearGradient id="g10"><stop stop-color="hsl(113,65%,51%)"/><stop offset="1" stop-color="hsl(121,65%,50%)"/></linearGradient>
+<linearGradient id="g11"><stop stop-color="hsl(125,65%,49%)"/><stop offset="1" stop-color="hsl(122,65%,50%)"/></linearGradient>
+<linearGradient id="g12"><stop stop-color="hsl(136,65%,47%)"/><stop offset="1" stop-color="hsl(138,65%,46%)"/></linearGradient>
 </defs>
 <path d="M190 110V260" stroke="#dcdedb"/><text class="tick" x="190" y="100" text-anchor="middle">0s</text>
 <path d="M372.8109346813718 110V260" stroke="#dcdedb"/><text class="tick" x="372.8109346813718" y="100" text-anchor="middle">1s</text>
@@ -17,39 +26,89 @@
 <path d="M1104.054673406859 110V260" stroke="#dcdedb"/><text class="tick" x="1104.054673406859" y="100" text-anchor="middle">5s</text>
 <text class="name" style="font-size:14px" x="25" y="150" textLength="73.08" lengthAdjust="spacingAndGlyphs">Mixture ·</text>
 <text class="name" style="font-size:14px" x="25" y="169" textLength="146.16" lengthAdjust="spacingAndGlyphs">suggested gestures</text>
-<text class="small" x="25" y="191">4 gestures</text>
+<text class="small" x="25" y="191">13 gestures</text>
 <path d="M190 201H1165" stroke="#dcdedb"/>
-<g data-event="suggested-1"  aria-label="Mixture · suggested gestures at 0s; brightness 0.57 to 0.548; noise 0.01 to 0.019">
-<title>Unreviewed audio-analysis suggestion · 0s–1.324s · pitch 71.9 · gain 0.5335 · decay 0</title>
-<path d="M190 195L228.20382912971309 138H417.33216128086906L431.9570360553788 195Z" fill="url(#g0)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture0"><path d="M190 195L228.20382912971309 138H417.33216128086906L431.9570360553788 195Z"/></clipPath><g clip-path="url(#texture0)">
+<g data-event="suggested-1"  aria-label="Mixture · suggested gestures at 0s; brightness 0.606 to 0.559; noise 0.011 to 0.024">
+<title>Unreviewed audio-analysis suggestion · 0s–0.186s · pitch 75 · gain 0.4597 · decay 0</title>
+<path d="M190 195L190.91405467340687 138H215.46921941980872L223.95895922641162 195Z" fill="url(#g0)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture0"><path d="M190 195L190.91405467340687 138H215.46921941980872L223.95895922641162 195Z"/></clipPath><g clip-path="url(#texture0)">
 </g>
-<text class="small" x="192" y="215">B 57→55</text>
-<text class="small" x="192" y="231">N 1→2</text>
 </g>
-<g data-event="suggested-2"  aria-label="Mixture · suggested gestures at 1.323537s; brightness 0.548 to 0.486; noise 0.019 to 0.007">
-<title>Unreviewed audio-analysis suggestion · 1.323537s–1.881s · pitch 67.8 · gain 0.3433 · decay 0</title>
-<path d="M431.9570360553788 195L436.20190595868024 138H519.2088561491692L533.8337309236789 195Z" fill="url(#g1)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture1"><path d="M431.9570360553788 195L436.20190595868024 138H519.2088561491692L533.8337309236789 195Z"/></clipPath><g clip-path="url(#texture1)">
+<g data-event="suggested-2"  aria-label="Mixture · suggested gestures at 0.18576s; brightness 0.609 to 0.552; noise 0.025 to 0.013">
+<title>Unreviewed audio-analysis suggestion · 0.18576s–0.372s · pitch 73.9 · gain 0.5335 · decay 0</title>
+<path d="M223.95895922641162 195L228.20382912971309 138H249.42817864622035L257.91791845282324 195Z" fill="url(#g1)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture1"><path d="M223.95895922641162 195L228.20382912971309 138H249.42817864622035L257.91791845282324 195Z"/></clipPath><g clip-path="url(#texture1)">
 </g>
-<text class="small" x="433.9570360553788" y="215">B 55→49</text>
-<text class="small" x="433.9570360553788" y="231">N 2→1</text>
 </g>
-<g data-event="suggested-3"  aria-label="Mixture · suggested gestures at 1.927256s; brightness 0.608 to 0.561; noise 0.04 to 0.03">
+<g data-event="suggested-3"  aria-label="Mixture · suggested gestures at 0.371519s; brightness 0.534 to 0.515; noise 0.005 to 0.023">
+<title>Unreviewed audio-analysis suggestion · 0.371519s–0.534s · pitch 72 · gain 0.3202 · decay 0</title>
+<path d="M257.91773564188856 195L262.16260554519 138H280.2033026342212L287.6318249649987 195Z" fill="url(#g2)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture2"><path d="M257.91773564188856 195L262.16260554519 138H280.2033026342212L287.6318249649987 195Z"/></clipPath><g clip-path="url(#texture2)">
+</g>
+</g>
+<g data-event="suggested-4"  aria-label="Mixture · suggested gestures at 0.534059s; brightness 0.626 to 0.549; noise 0.026 to 0.013">
+<title>Unreviewed audio-analysis suggestion · 0.534059s–0.72s · pitch 69.9 · gain 0.523 · decay 0</title>
+<path d="M287.6318249649987 195L291.87669486830015 138H313.10104438480744L321.59078419141036 195Z" fill="url(#g3)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture3"><path d="M287.6318249649987 195L291.87669486830015 138H313.10104438480744L321.59078419141036 195Z"/></clipPath><g clip-path="url(#texture3)">
+</g>
+</g>
+<g data-event="suggested-5"  aria-label="Mixture · suggested gestures at 0.719819s; brightness 0.519 to 0.548; noise 0.007 to 0.064">
+<title>Unreviewed audio-analysis suggestion · 0.719819s–0.882s · pitch 68 · gain 0.379 · decay 0</title>
+<path d="M321.59078419141036 195L331.9907154544989 138H343.876351183743L351.3048735145205 195Z" fill="url(#g4)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture4"><path d="M321.59078419141036 195L331.9907154544989 138H343.876351183743L351.3048735145205 195Z"/></clipPath><g clip-path="url(#texture4)">
+</g>
+</g>
+<g data-event="suggested-6"  aria-label="Mixture · suggested gestures at 0.882358s; brightness 0.628 to 0.607; noise 0.045 to 0.073">
+<title>Unreviewed audio-analysis suggestion · 0.882358s–1.091s · pitch 70 · gain 0.5227 · decay 0</title>
+<path d="M351.30469070358583 195L355.54956060688727 138H379.95756255087065L389.5085198332989 195Z" fill="url(#g5)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture5"><path d="M351.30469070358583 195L355.54956060688727 138H379.95756255087065L389.5085198332989 195Z"/></clipPath><g clip-path="url(#texture5)">
+</g>
+</g>
+<g data-event="suggested-7"  aria-label="Mixture · suggested gestures at 1.091338s; brightness 0.566 to 0.507; noise 0.005 to 0.009">
+<title>Unreviewed audio-analysis suggestion · 1.091338s–1.324s · pitch 72 · gain 0.3798 · decay 0</title>
+<path d="M389.5085198332989 195L390.42257450670576 138H421.3450441080598L431.9572188663135 195Z" fill="url(#g6)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture6"><path d="M389.5085198332989 195L390.42257450670576 138H421.3450441080598L431.9572188663135 195Z"/></clipPath><g clip-path="url(#texture6)">
+</g>
+</g>
+<g data-event="suggested-8"  aria-label="Mixture · suggested gestures at 1.323537s; brightness 0.599 to 0.534; noise 0.057 to 0.017">
+<title>Unreviewed audio-analysis suggestion · 1.323537s–1.533s · pitch 70.6 · gain 0.3433 · decay 0</title>
+<path d="M431.9570360553788 195L436.20190595868024 138H460.60990790266356L470.16086518509184 195Z" fill="url(#g7)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture7"><path d="M431.9570360553788 195L436.20190595868024 138H460.60990790266356L470.16086518509184 195Z"/></clipPath><g clip-path="url(#texture7)">
+</g>
+</g>
+<g data-event="suggested-9"  aria-label="Mixture · suggested gestures at 1.532517s; brightness 0.509 to 0.489; noise 0.011 to 0.021">
+<title>Unreviewed audio-analysis suggestion · 1.532517s–1.649s · pitch 67.9 · gain 0.1856 · decay 0</title>
+<path d="M470.16086518509184 195L471.0749198584987 138H486.0791273224723L491.3852147015991 195Z" fill="url(#g8)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture8"><path d="M470.16086518509184 195L471.0749198584987 138H486.0791273224723L491.3852147015991 195Z"/></clipPath><g clip-path="url(#texture8)">
+</g>
+</g>
+<g data-event="suggested-10"  aria-label="Mixture · suggested gestures at 1.648617s; brightness 0.497 to 0.467; noise 0.004 to 0.007">
+<title>Unreviewed audio-analysis suggestion · 1.648617s–1.881s · pitch 65 · gain 0.2068 · decay 0</title>
+<path d="M491.3852147015991 195L492.29926937500596 138H523.22173897636L533.8339137346136 195Z" fill="url(#g9)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture9"><path d="M491.3852147015991 195L492.29926937500596 138H523.22173897636L533.8339137346136 195Z"/></clipPath><g clip-path="url(#texture9)">
+</g>
+</g>
+<g data-event="suggested-11"  aria-label="Mixture · suggested gestures at 1.927256s; brightness 0.608 to 0.561; noise 0.04 to 0.03">
 <title>Unreviewed audio-analysis suggestion · 1.927256s–2.276s · pitch 69.9 · gain 0.4835 · decay 0</title>
-<path d="M542.3234707302819 195L559.3029503434877 138H591.3714616943593L605.996336468869 195Z" fill="url(#g2)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture2"><path d="M542.3234707302819 195L559.3029503434877 138H591.3714616943593L605.996336468869 195Z"/></clipPath><g clip-path="url(#texture2)">
+<path d="M542.3234707302819 195L559.3029503434877 138H591.3714616943593L605.996336468869 195Z" fill="url(#g10)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture10"><path d="M542.3234707302819 195L559.3029503434877 138H591.3714616943593L605.996336468869 195Z"/></clipPath><g clip-path="url(#texture10)">
 </g>
 <text class="small" x="544.3234707302819" y="215">B 61→56</text>
 <text class="small" x="544.3234707302819" y="231">N 4→3</text>
 </g>
-<g data-event="suggested-4"  aria-label="Mixture · suggested gestures at 2.275556s; brightness 0.541 to 0.471; noise 0.02 to 0.005">
-<title>Unreviewed audio-analysis suggestion · 2.275556s–3.042s · pitch 65 · gain 0.412 · decay 0</title>
-<path d="M605.9965192798036 195L622.9759988930094 138H731.4521685033071L746.0770432778169 195Z" fill="url(#g3)" stroke="#38485d" stroke-width="1"/>
-<clipPath id="texture3"><path d="M605.9965192798036 195L622.9759988930094 138H731.4521685033071L746.0770432778169 195Z"/></clipPath><g clip-path="url(#texture3)">
+<g data-event="suggested-12"  aria-label="Mixture · suggested gestures at 2.275556s; brightness 0.543 to 0.558; noise 0.027 to 0.029">
+<title>Unreviewed audio-analysis suggestion · 2.275556s–2.554s · pitch 67.9 · gain 0.412 · decay 0</title>
+<path d="M605.9965192798036 195L622.9759988930094 138H644.2001655985821L656.9347753084865 195Z" fill="url(#g11)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture11"><path d="M605.9965192798036 195L622.9759988930094 138H644.2001655985821L656.9347753084865 195Z"/></clipPath><g clip-path="url(#texture11)">
 </g>
-<text class="small" x="607.9965192798036" y="215">B 54→47</text>
-<text class="small" x="607.9965192798036" y="231">N 2→1</text>
+</g>
+<g data-event="suggested-13"  aria-label="Mixture · suggested gestures at 2.554195s; brightness 0.479 to 0.471; noise 0.005 to 0.005">
+<title>Unreviewed audio-analysis suggestion · 2.554195s–3.042s · pitch 65 · gain 0.3288 · decay 0</title>
+<path d="M656.9347753084865 195L657.8488299818933 138H731.4519856923725L746.0768604668823 195Z" fill="url(#g12)" stroke="#38485d" stroke-width="1"/>
+<clipPath id="texture12"><path d="M656.9347753084865 195L657.8488299818933 138H731.4519856923725L746.0768604668823 195Z"/></clipPath><g clip-path="url(#texture12)">
+</g>
+<text class="small" x="658.9347753084865" y="215">B 48→47</text>
+<text class="small" x="658.9347753084865" y="231">N 1→1</text>
 </g>
 <text x="30" y="285" font-size="16" font-weight="bold">Read the sound</text>
 <text x="30" y="311" font-size="14">B / blue → gold: dark → bright. N / more dots: tonal → noise-like. Values 0–100; transitions are linear.</text>
