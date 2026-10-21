@@ -1,5 +1,5 @@
 import { assertScore, VERSION, RENDERER } from './score.mjs';
-export const ANALYZER = 'spectral-gesture-v3';
+export const ANALYZER = 'spectral-gesture-v3.1';
 const clamp = (x,a=0,b=1) => Math.max(a,Math.min(b,x));
 const median = a => a.length ? [...a].sort((a,b)=>a-b)[Math.floor(a.length/2)] : 0;
 
@@ -77,7 +77,11 @@ export function analyzeAudio(samples,sampleRate,{title='Audio study',sourceName=
   const size=2048,hop=512,frames=[];
   for(let start=0;start<samples.length;start+=hop) {
     const frame=new Float32Array(size);frame.set(samples.subarray(start,start+size));
-    frames.push({...describeFrame(frame,sampleRate),time:start/sampleRate});
+    // A separate 23 ms energy window preserves brief articulation dips that
+    // the 93 ms pitch window averages away.
+    let energy=0;
+    for(let j=0;j<hop;j++) energy+=frame[j]*frame[j];
+    frames.push({...describeFrame(frame,sampleRate),shortRms:Math.sqrt(energy/hop),time:start/sampleRate});
   }
   const peak=Math.max(...frames.map(f=>f.rms));
   const threshold=Math.max(.002,peak*.025);
@@ -87,7 +91,9 @@ export function analyzeAudio(samples,sampleRate,{title='Audio study',sourceName=
     const f=frames[i],previous=frames[i-1];
     const active=f.rms>threshold;
     const elapsed=start===null ? 0 : f.time-frames[start].time;
-    const attack=previous && f.rms>previous.rms*1.75 && f.rms>peak*.12;
+    const next=frames[i+1];
+    const rearticulation=previous && next && f.shortRms<previous.shortRms*.8 && next.shortRms>f.shortRms*1.4 && next.shortRms>peak*.12;
+    const attack=rearticulation || (previous && f.rms>previous.rms*1.75 && f.rms>peak*.12);
     // Compare a stable upcoming pitch with the current note, rather than two
     // adjacent frames: legato transitions often pass through unvoiced frames.
     const upcoming=frames.slice(i,i+3).map(x=>x.pitch).filter(x=>x!==null);
@@ -121,7 +127,7 @@ export function analyzeAudio(samples,sampleRate,{title='Audio study',sourceName=
   const score={version:VERSION,renderer:RENDERER,title,duration:+duration.toFixed(6),seed,
     provenance:{kind:'automatic suggestions; not listening-reviewed',sourceName,sourceHash,analyzer:ANALYZER,sampleRate,frameSize:size,hopSize:hop,
       pitchEstimator:{method:'full-rate YIN-style difference with raw-minimum interpolation',threshold:.12,midiRange:[24,108],boundaryAllowanceSemitones:.15},
-      segmentation:{method:'stable pitch change against note anchor',pitchChangeSemitones:.65,stableFrames:3,stableSpreadSemitones:.45,minimumSplitSeconds:.065},
+      segmentation:{method:'stable pitch change against note anchor',pitchChangeSemitones:.65,stableFrames:3,stableSpreadSemitones:.45,minimumSplitSeconds:.065,articulationWindowSamples:hop,articulationDipRatio:.8,articulationRiseRatio:1.4},
       note:'Approximate single periodic pitch and spectral descriptors. Polyphonic notes are not recovered. Unknown pitch maps to a noise carrier; this is not proof of noisy timbre. Forward windows can anticipate onsets by up to one frame. Correct by listening before submission.',manualEdits:[]},
     lanes:[{id:'analysis',name:laneName,events}]};
   assertScore(score);

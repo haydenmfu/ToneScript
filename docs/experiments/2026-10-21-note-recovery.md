@@ -23,3 +23,11 @@ Previous scores and matched recordings are preserved locally in `outputs/baselin
 No agent listening judgment is claimed. The student should compare source and reconstruction phrase by phrase before resuming timbre preference evaluation. The workflow's perceptual gate remains open.
 
 Full verification: npm run check passed lint, syntax checks, and 44/44 tests with local network access. The initial restricted run passed 43/44; its HTTP test failed to fetch localhost. Static exports were regenerated but this checkpoint does not claim visual or listening approval.
+
+## Repeated-note follow-up
+
+A five-note same-pitch fixture with brief articulation dips collapsed to one event under v3. Added a 23 ms energy window alongside the existing pitch window, detecting a local dip followed by renewed energy. v3.1 retains all five attacks within 55 ms and correct pitch; sustained bass and gently modulated notes at 32.7, 55, 110, and 440 Hz remain single events. All four melody regressions pass. This does not establish robustness for arbitrary tremolo, very rapid notes, or polyphony.
+
+Regenerated v3.1 output: 13 trumpet and 106 Choice events. `node scripts/build-note-review.mjs` creates an embedded-audio source / old / revised diagnostic page at `outputs/review/note-recovery.html`. It uses the preserved v2 baseline and fails if that baseline is absent. This unblinded comparison is separate from the randomized timbre preference task. Human listening remains pending.
+
+Follow-up full verification: lint, syntax checks and 46/46 tests passed with localhost access.

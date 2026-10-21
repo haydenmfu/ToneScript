@@ -8,7 +8,7 @@
     "kind": "automatic suggestions; not listening-reviewed",
     "sourceName": "trumpet",
     "sourceHash": "4eb24d7b33665c37c210079312203fa4523190b475443e31e1cac54d7109d195",
-    "analyzer": "spectral-gesture-v3",
+    "analyzer": "spectral-gesture-v3.1",
     "sampleRate": 22050,
     "frameSize": 2048,
     "hopSize": 512,
@@ -26,7 +26,10 @@
       "pitchChangeSemitones": 0.65,
       "stableFrames": 3,
       "stableSpreadSemitones": 0.45,
-      "minimumSplitSeconds": 0.065
+      "minimumSplitSeconds": 0.065,
+      "articulationWindowSamples": 512,
+      "articulationDipRatio": 0.8,
+      "articulationRiseRatio": 1.4
     },
     "note": "Applied draft from recorded audio. Automatic suggestions require listening corrections; instrument labels describe estimated source groups.",
     "manualEdits": [],
@@ -137,42 +140,42 @@
         {
           "id": "suggested-5",
           "start": 0.719819,
-          "duration": 0.16254,
+          "duration": 0.13932,
           "pitch": 68,
-          "gain": 0.379,
+          "gain": 0.2939,
           "label": "Unreviewed audio-analysis suggestion",
           "timbre": {
             "brightness": [
               0.519,
-              0.548
+              0.528
             ],
             "noise": [
               0.007,
-              0.064
+              0.019
             ],
-            "attack": 0.056889,
-            "release": 0.040635,
+            "attack": 0.048762,
+            "release": 0.03483,
             "decay": 0
           }
         },
         {
           "id": "suggested-6",
-          "start": 0.882358,
-          "duration": 0.20898,
+          "start": 0.859138,
+          "duration": 0.2322,
           "pitch": 70,
           "gain": 0.5227,
           "label": "Unreviewed audio-analysis suggestion",
           "timbre": {
             "brightness": [
-              0.628,
-              0.607
+              0.617,
+              0.586
             ],
             "noise": [
               0.045,
               0.073
             ],
-            "attack": 0.02322,
-            "release": 0.052245,
+            "attack": 0.04644,
+            "release": 0.05805,
             "decay": 0
           }
         },
@@ -200,42 +203,42 @@
         {
           "id": "suggested-8",
           "start": 1.323537,
-          "duration": 0.20898,
+          "duration": 0.1161,
           "pitch": 70.6,
           "gain": 0.3433,
           "label": "Unreviewed audio-analysis suggestion",
           "timbre": {
             "brightness": [
               0.599,
-              0.534
+              0.599
             ],
             "noise": [
-              0.057,
-              0.017
+              0.072,
+              0.039
             ],
             "attack": 0.02322,
-            "release": 0.052245,
+            "release": 0.029025,
             "decay": 0
           }
         },
         {
           "id": "suggested-9",
-          "start": 1.532517,
-          "duration": 0.1161,
+          "start": 1.439637,
+          "duration": 0.20898,
           "pitch": 67.9,
-          "gain": 0.1856,
+          "gain": 0.2239,
           "label": "Unreviewed audio-analysis suggestion",
           "timbre": {
             "brightness": [
-              0.509,
-              0.489
+              0.534,
+              0.493
             ],
             "noise": [
-              0.011,
-              0.021
+              0.017,
+              0.018
             ],
             "attack": 0.005,
-            "release": 0.029025,
+            "release": 0.052245,
             "decay": 0
           }
         },

@@ -31,3 +31,27 @@ test('a sustained note with vibrato is not split into invented repeated notes',(
   assert.equal(events.length,1);
   assert.ok(Math.abs(events[0].pitch-69)<.3);
 });
+
+test('rearticulated same-pitch notes retain their attacks',()=>{
+  const sr=22050,spacing=.3,count=5;
+  const samples=Float32Array.from({length:sr*spacing*count},(_,i)=>{
+    const local=(i/sr)%spacing;
+    const envelope=Math.min(1,local/.015,(spacing-local)/.025);
+    return .25*envelope*Math.sin(2*Math.PI*440*i/sr);
+  });
+  const events=analyzeAudio(samples,sr).score.lanes[0].events;
+  assert.equal(events.length,count,JSON.stringify(events.map(e=>[e.start,e.pitch])));
+  events.forEach((e,i)=>{
+    assert.ok(Math.abs(e.start-i*spacing)<.055,`onset ${i}: ${e.start}`);
+    assert.ok(Math.abs(e.pitch-69)<.3);
+  });
+});
+
+test('short energy windows do not invent attacks in sustained bass or gentle tremolo',()=>{
+  for(const frequency of [32.7032,55,110,440]) {
+    const sr=22050;
+    const samples=Float32Array.from({length:sr},(_,i)=>.25*(1+.15*Math.sin(2*Math.PI*5*i/sr))*Math.sin(2*Math.PI*frequency*i/sr));
+    const events=analyzeAudio(samples,sr).score.lanes[0].events;
+    assert.equal(events.length,1,`${frequency} Hz: ${events.length} attacks`);
+  }
+});
