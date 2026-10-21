@@ -31,3 +31,15 @@ A five-note same-pitch fixture with brief articulation dips collapsed to one eve
 Regenerated v3.1 output: 13 trumpet and 106 Choice events. `node scripts/build-note-review.mjs` creates an embedded-audio source / old / revised diagnostic page at `outputs/review/note-recovery.html`. It uses the preserved v2 baseline and fails if that baseline is absent. This unblinded comparison is separate from the randomized timbre preference task. Human listening remains pending.
 
 Follow-up full verification: lint, syntax checks and 46/46 tests passed with localhost access.
+
+## Real-recording diagnostic, after continuing listener rejection
+
+`node scripts/diagnose-notes.mjs` compares centered 2048-sample frames at a 256-sample hop with saved score events. The full trace is written to ignored `outputs/diagnostics/note-coverage.json`. This deliberately uses the same pitch estimator: it diagnoses information discarded by segmentation, not ground-truth accuracy or independent note recall.
+
+Trumpet: 20 of 206 active pitched frames differ from the score by more than 0.7 semitones or lack a score pitch. Around 1.44–1.52 seconds, frame estimates move from roughly 70.6 to 69.9 while the current score already holds 67.9. This suggests premature boundary placement and merging of an intervening pitch. A centered diagnostic also exposes the known forward-window timestamp bias.
+
+Choice bass: 129 of 701 active pitched frames differ or have no score pitch. At 0.906–1.022 seconds the estimate is consistently about MIDI 33.1, but the corresponding score has null pitch. The per-event 45% voiced-frame requirement can erase short pitched regions inside longer uncertain segments, turning them into a noise carrier. Inspect voiced/unvoiced segmentation and event pitch assignment before changing timbre synthesis.
+
+Choice drums: no confident pitched frames in this diagnostic. This says nothing about missing percussion attacks or multiple drum types; this pitch-only diagnostic cannot evaluate those.
+
+Next implementation targets: preserve short voiced regions within uncertain bass segments, correct timestamp/boundary handling, and verify the trumpet transition without indiscriminately increasing event count. Add appropriate regressions and compare real traces before regenerating the listener materials. No new musical fix or listening success is claimed in this diagnostic checkpoint.
